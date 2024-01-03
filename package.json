@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/RiyazR2/ReactJs-R2/issues"
   },
-  "homepage": "https://github.com/RiyazR2/ReactJs-R2#readme"
+  "homepage": "https://github.com/RiyazR2/ReactJs-R2#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  }
 }
