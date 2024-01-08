@@ -7,21 +7,13 @@
     <link rel="stylesheet" href="/index.css" />
   </head>
   <body>
-    <!-- order of files matter -->
-    <!-- <script
-      crossorigin
-      src="https://unpkg.com/react@18/umd/react.development.js"
-    ></script>
-    <script
-      crossorigin
-      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-    ></script> -->
+    <div id="root">
+      <p>
+        Whatever Data is here under this root it will be <b>Replace</b> not
+        <b>Append</b>
+      </p>
+    </div>
 
-    <h1>Hello from Top of Root</h1>
-    <div id="root"></div>
-    <h1>Hello from bottom of Root</h1>
-
-    <!-- we cannot put ReactJs File before CDN links -->
     <script type="module" src="/App.js"></script>
   </body>
 </html>
