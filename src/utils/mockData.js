@@ -1,4 +1,4 @@
-const restaurantList = [
+const resList = [
   {
     type: "restaurant",
     data: {
@@ -118,7 +118,7 @@ const restaurantList = [
         iconType: "EMPTY",
       },
       promoted: true,
-      avgRating: "4.0",
+      avgRating: "4.5",
       totalRatings: 5000,
       new: false,
     },
@@ -603,7 +603,7 @@ const restaurantList = [
         iconType: "EMPTY",
       },
       promoted: false,
-      avgRating: "4.0",
+      avgRating: "4.8",
       totalRatings: 1000,
       new: false,
     },
@@ -730,4 +730,4 @@ const restaurantList = [
   },
 ];
 
-export default restaurantList;
+export default resList;
