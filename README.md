@@ -1,12 +1,12 @@
 # React by Riyaz Pathan 🚀
 
-# Parcel (https://parceljs.org/)
+# Parcel => for more and good info (https://parceljs.org/)
 
 - Dev Build
 - Local Server
-- HMR = Hot Module Replacement
-- File watching Algorithm - written in C++
-- Caching - Faster Builds
+- HMR = Hot Module Replacement => Automatically Refresh Page
+- File watching Algorithm - written in C++ => it keeps an eye on all these files as soon as we are developing something we change anything into our code parcel is keeping a track of every save that we do in our project as soon as we do it will build it once again
+- Caching - Faster Builds (.parcel-cache)
 - Image Optimization
 - Bundling
 - Compress
