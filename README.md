@@ -48,3 +48,7 @@
   <!-- When their is export of more than 1 component then used this type -->
   - export const Component
   - import {Component} from "path";
+
+# React Hooks
+
+- Normal Js Function - written by Facebook Developer
