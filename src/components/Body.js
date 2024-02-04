@@ -1,20 +1,32 @@
 import RestaurantCard from "./RestaurantCard";
 import resList from "../utils/mockData";
 import { useEffect, useState } from "react";
-
+import Shimmer from "./Shimmer";
 const Body = () => {
-  let [ListOfRestaurants, setListOfRestaurants] = useState(resList);
+  // let [ListOfRestaurants, setListOfRestaurant] = useState(resList);
+  let [ListOfRestaurants, setListOfRestaurant] = useState([]);
   useEffect(() => {
     fetchData();
   }, []);
 
   const fetchData = async () => {
     const data = await fetch(
-      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9715987&lng=77.5945627&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
+      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.5642452&lng=73.7768511&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
     );
 
     const json = await data.json();
-    console.log(json);
+
+    console.log(
+      json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants
+    );
+
+    setListOfRestaurant(
+      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+    );
+
+    if (ListOfRestaurants.length === 0) {
+      return <Shimmer />;
+    }
   };
   return (
     <div className="body">
@@ -25,7 +37,7 @@ const Body = () => {
             const filteredList = ListOfRestaurants.filter(
               (res) => res.data.avgRating > 4
             );
-            setListOfRestaurants(filteredList);
+            setListOfRestaurant(filteredList);
           }}
         >
           Top Rated Restaurants
@@ -33,7 +45,7 @@ const Body = () => {
       </div>
       <div className="res-container">
         {ListOfRestaurants.map((restaurant) => (
-          <RestaurantCard key={restaurant.data.id} restData={restaurant} />
+          <RestaurantCard key={restaurant.info.id} restData={restaurant} />
         ))}
       </div>
     </div>
