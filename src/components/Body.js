@@ -52,7 +52,7 @@ const Body = () => {
               //Filter the restaurant cards and update the UI
               // searchText
               console.log(searchText);
-
+              console.log(listOfRestaurants);
               const filteredRestaurant = listOfRestaurants.filter((res) =>
                 res.info.name.toLowerCase().includes(searchText.toLowerCase())
               );
@@ -66,8 +66,9 @@ const Body = () => {
         <button
           className="filter-btn"
           onClick={() => {
+            console.log(listOfRestaurants);
             const filteredList = listOfRestaurants.filter(
-              (res) => res.data.avgRating > 4
+              (res) => res.info.avgRating > 4
             );
             setListOfRestaurant(filteredList);
           }}
