@@ -11,7 +11,7 @@ const RestaurantMenu = () => {
 
   const fetchMenu = async () => {
     const data = await fetch(
-      "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=17.6599188&lng=75.9063906&restaurantId=655335&catalog_qa=undefined&submitAction=ENTER"
+      "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=18.528913&lng=73.87441989999999&restaurantId=28828&catalog_qa=undefined&submitAction=ENTER"
     );
 
     const json = await data.json();
@@ -25,19 +25,23 @@ const RestaurantMenu = () => {
     resInfo?.cards[0].card.card.info;
 
   const { itemCards } =
-    resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card;
-  console.log("itemCards", itemCards);
+    resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card;
+
   return (
     <div className="menu">
       <h1>{name}</h1>
-      <h3>{cuisines.join(", ")}</h3>
-      <h3>{costForTwoMessage}</h3>
-      <h3>{avgRating} stars</h3>
+      <h3>
+        {cuisines.join(", ")} - {costForTwoMessage} - {avgRating} stars
+      </h3>
+
       <h2>Menu</h2>
       <ul>
-        <li>Biryan</li>
-        <li>Burger</li>
-        <li>Diet Coke</li>
+        {itemCards.map((item) => (
+          <li key={item.card.info.id}>
+            {item.card.info.name} - {" Rs."}
+            {item.card.info.price / 100 || item.card.info.defaultPrice / 100}
+          </li>
+        ))}
       </ul>
     </div>
   );
