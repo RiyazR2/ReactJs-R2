@@ -52,3 +52,8 @@
 # React Hooks
 
 - Normal Js Function - written by Facebook Developer
+
+# 2 Types of Routing in Web Apps
+
+- Client Side Routing
+- Server Side Routing
