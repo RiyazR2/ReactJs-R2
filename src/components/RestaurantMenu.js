@@ -18,16 +18,16 @@ const RestaurantMenu = () => {
     const json = await data.json();
 
     setResInfo(json?.data);
-    console.log(json);
+    console.log(json); // don't remove it, this is used for reference resInfo
   };
 
   if (resInfo === null) return <Shimmer />;
 
   const { name, cuisines, costForTwoMessage, avgRating } =
-    resInfo?.cards[0].card.card.info;
+    resInfo?.cards[2].card.card.info; // Always check the path [json / resInfo]
 
   const { itemCards } =
-    resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card;
+    resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card; // Always check the path [json / resInfo]
 
   return (
     <div className="menu">
