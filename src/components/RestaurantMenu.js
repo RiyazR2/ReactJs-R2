@@ -1,33 +1,19 @@
-import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import { useParams } from "react-router-dom";
-import { MENU_API } from "../utils/constants";
+import useRestaurantMenu from "../utils/useRestaurantMenu";
 
 const RestaurantMenu = () => {
-  const [resInfo, setResInfo] = useState(null);
-
   const { resId } = useParams();
 
-  useEffect(() => {
-    fetchMenu();
-  }, []);
-
-  const fetchMenu = async () => {
-    console.log("Fetching Menu");
-    const data = await fetch(MENU_API + resId);
-    const json = await data.json();
-
-    setResInfo(json?.data);
-    console.log(json); // don't remove it, this is used for reference resInfo
-  };
-
+  const resInfo = useRestaurantMenu(resId);
+  console.log("resInfo", resInfo); // don't delete this, this is for reference
   if (resInfo === null) return <Shimmer />;
 
   const { name, cuisines, costForTwoMessage, avgRating } =
-    resInfo?.cards[2].card.card.info; // Always check the path [json / resInfo]
+    resInfo?.cards[0]?.card?.card?.info; // Always check the path [json / resInfo]
 
   const { itemCards } =
-    resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card; // Always check the path [json / resInfo]
+    resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card; // Always check the path [json / resInfo]
 
   return (
     <div className="menu">
@@ -45,6 +31,7 @@ const RestaurantMenu = () => {
               item?.card?.info?.defaultPrice / 100}
           </li>
         ))}
+        <h1 align="center">More Info Will be Added Soon... 🤗</h1>
       </ul>
     </div>
   );
