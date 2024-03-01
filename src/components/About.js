@@ -4,14 +4,14 @@ import { Component } from "react";
 class About extends Component {
   constructor(props) {
     super(props);
-    console.log("Parent Class Constructor");
+    // console.log("Parent Class Constructor");
   }
 
   componentDidMount() {
-    console.log("Parent Class Component Did Mount");
+    // console.log("Parent Class Component Did Mount");
   }
   render() {
-    console.log("Parent Class Render");
+    // console.log("Parent Class Render");
     return (
       <div>
         <h1>About Us</h1>
@@ -19,8 +19,6 @@ class About extends Component {
 
         <br />
         <UserClass name="First" location="Solapur" />
-        <UserClass name="Second" location="Solapur" />
-        <UserClass name="Third" location="Solapur" />
       </div>
     );
   }
