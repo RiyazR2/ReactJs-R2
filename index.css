@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
 .header {
   display: flex;
   justify-content: space-between;
@@ -42,7 +47,7 @@
 }
 
 .res-card {
-  /* background-color: #f0f0f0; */
+  // background-color: #f0f0f0; 
   margin: 10px;
   padding: 10px;
   width: 200px;
@@ -85,3 +90,10 @@
   width: 160px;
   height: 160px;
 }
+
+.Link {
+  text-decoration: none;
+} 
+
+
+*/
