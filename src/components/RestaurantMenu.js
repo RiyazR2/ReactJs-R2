@@ -16,14 +16,16 @@ const RestaurantMenu = () => {
     resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card; // Always check the path [json / resInfo]
 
   return (
-    <div className="menu">
-      <h1>{name}</h1>
-      <h3>
+    <div className="menu ml-10">
+      <h1 className="font-bold mt-5">{name}</h1>
+
+      <h3 className="font-semibold">
         {cuisines.join(", ")} | {costForTwoMessage} | {avgRating} stars
       </h3>
+      <hr />
 
-      <h2>Menu</h2>
-      <ul>
+      <h2 className="font-bold mt-5 ml-10 text-black">MENU</h2>
+      <ul className="ml-10">
         {itemCards?.map((item) => (
           <li key={item?.card?.info?.id}>
             {item?.card?.info?.name} - {" Rs."}
