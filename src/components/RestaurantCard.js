@@ -27,4 +27,26 @@ const RestaurantCard = (props) => {
   );
 };
 
+// info: aggregatedDiscountInfoV3: header: "20% OFF";
+
+// Higher Order Component
+// input - RestaurantCard ==> RestaurantCardDiscount
+
+export const withDiscountLabel = (RestaurantCard) => {
+  return (props) => {
+    const { header } = props?.restData?.info?.
+      aggregatedDiscountInfoV3
+
+
+    return (
+      <div>
+        <label className="absolute bg-black text-white rounded-md ml-4 p-2 "> {header === "ITEMS" ? "Discount Soon 🤗" : header}</label>
+
+        {/* {console.log(resData?.info?.aggregatedDiscountInfoV3?.header)} */}
+        <RestaurantCard {...props} />
+      </div>
+    );
+  };
+};
+
 export default RestaurantCard;
