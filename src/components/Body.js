@@ -1,4 +1,4 @@
-import RestaurantCard from "./RestaurantCard";
+import RestaurantCard, { withDiscountLabel } from "./RestaurantCard";
 import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
@@ -12,8 +12,10 @@ const Body = () => {
 
   const [searchText, setSearchText] = useState("");
 
+  const RestaurantCardDiscount = withDiscountLabel(RestaurantCard);
+
   // Whenever state variable update, react triggers a reconciliation cycle (re-renders the component)
-  console.log("Body Rendered");
+  console.log("Body Rendered\nList Of Restaurants: ", listOfRestaurants);
 
   useEffect(() => {
     fetchData();
@@ -24,7 +26,7 @@ const Body = () => {
 
     const json = await data.json();
 
-    console.log(json);
+    console.log("SwigyyAPI: ", json);
 
     setListOfRestaurant(
       json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
@@ -90,11 +92,11 @@ const Body = () => {
       </div>
       <div className="flex flex-wrap ">
         {filteredRestaurant.map((restaurant) => (
-          <Link
-            to={"/restaurants/" + restaurant.info.id}
-            key={restaurant.info.id}
-          >
-            <RestaurantCard restData={restaurant} />
+          <Link to={"/restaurants/" + restaurant.info.id} key={restaurant.info.id}>
+
+            {restaurant?.info?.aggregatedDiscountInfoV3?.header ? (<RestaurantCardDiscount restData={restaurant} />) : (<RestaurantCard restData={restaurant} />)}
+
+
           </Link>
         ))}
       </div>
@@ -103,3 +105,9 @@ const Body = () => {
 };
 
 export default Body;
+
+// {restaurant?.info?.aggregatedDiscountInfoV3?.header ? (
+//   <RestaurantCardDiscount restData={restaurant} />
+// ) : (
+//   <RestaurantCard restData={restaurant} />
+// )}
