@@ -23,14 +23,14 @@ const ItemList_Category = ({ items }) => {
           </div>
           <div className="w-3/12 p-4 ">
             <div className="absolute ml-5">
-              <button className=" w-24 p-1 font-semibold mt-24  bg-white text-[#68ae52] border border-black rounded-lg  hover:bg-green-200">
+              <button className=" w-24 p-1 font-semibold ml-3 mt-16  bg-white text-[#68ae52] border border-black rounded-lg  hover:bg-green-200">
                 ADD
               </button>
             </div>
             <img
+              className="w-40 h-20 rounded-lg"
               src={CDN_URL + item?.card?.info?.imageId}
               alt="logo"
-              className="w-40"
             />
           </div>
         </div>

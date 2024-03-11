@@ -1,13 +1,9 @@
-import { useState } from "react";
 import ItemList_Category from "./ItemList_Category";
 
-const RestaurantCategory = ({ categoryData }) => {
-  const [showItems, setShowItems] = useState(false);
+const RestaurantCategory = ({ categoryData, showItems, setIndex }) => {
   const handleClick = () => {
-    console.log("Clicked");
-    setShowItems(!showItems);
+    setIndex(); //
   };
-
   console.log("categoryData:", categoryData);
   return (
     <div>
@@ -25,7 +21,6 @@ const RestaurantCategory = ({ categoryData }) => {
 
         {showItems && <ItemList_Category items={categoryData.itemCards} />}
       </div>
-      {/* Accordion Body */}
     </div>
   );
 };
