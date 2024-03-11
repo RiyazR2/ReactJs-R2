@@ -15,7 +15,7 @@ const Body = () => {
   const RestaurantCardDiscount = withDiscountLabel(RestaurantCard);
 
   // Whenever state variable update, react triggers a reconciliation cycle (re-renders the component)
-  console.log("Body Rendered\nList Of Restaurants: ", listOfRestaurants);
+  // console.log("Body Rendered\nList Of Restaurants: ", listOfRestaurants); //tempororay Commented down
 
   useEffect(() => {
     fetchData();
@@ -92,11 +92,16 @@ const Body = () => {
       </div>
       <div className="flex flex-wrap ">
         {filteredRestaurant.map((restaurant) => (
-          <Link to={"/restaurants/" + restaurant.info.id} key={restaurant.info.id}>
-
-            {restaurant?.info?.aggregatedDiscountInfoV3?.header ? (<RestaurantCardDiscount restData={restaurant} />) : (<RestaurantCard restData={restaurant} />)}
-
-
+          <Link
+            to={"/restaurants/" + restaurant.info.id}
+            key={restaurant.info.id}
+          >
+            {/* If the Restourant have Discount then add a Discount Label on it */}
+            {restaurant?.info?.aggregatedDiscountInfoV3?.header ? (
+              <RestaurantCardDiscount restData={restaurant} />
+            ) : (
+              <RestaurantCard restData={restaurant} />
+            )}
           </Link>
         ))}
       </div>
@@ -105,9 +110,3 @@ const Body = () => {
 };
 
 export default Body;
-
-// {restaurant?.info?.aggregatedDiscountInfoV3?.header ? (
-//   <RestaurantCardDiscount restData={restaurant} />
-// ) : (
-//   <RestaurantCard restData={restaurant} />
-// )}
