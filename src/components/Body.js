@@ -1,9 +1,10 @@
 import RestaurantCard, { withDiscountLabel } from "./RestaurantCard";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import { swiggyAPI } from "../utils/constants";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import UserContext from "../utils/UserContext";
 
 const Body = () => {
   // local state Variable - super powerful variable
@@ -43,6 +44,8 @@ const Body = () => {
         Looks Like You're Offline!! Please Check Your Internet Connection...
       </h1>
     );
+
+  const { loggedInUser, setUserName } = useContext(UserContext);
 
   return listOfRestaurants.length === 0 ? (
     <Shimmer />
@@ -88,6 +91,16 @@ const Body = () => {
           >
             Top Rated Restaurants
           </button>
+        </div>
+        <div className="m-4 p-4 flex items-center round">
+          <label>
+            UserName :
+            <input
+              value={loggedInUser}
+              onChange={(e) => setUserName(e.target.value)}
+              className="px-2 border border-black"
+            />
+          </label>
         </div>
       </div>
       <div className="flex flex-wrap ">
