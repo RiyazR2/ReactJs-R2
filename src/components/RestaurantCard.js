@@ -1,9 +1,12 @@
 import { CDN_URL } from "../utils/constants";
-
+import UserContext from "../utils/UserContext";
+import { useContext } from "react";
 const RestaurantCard = (props) => {
   const { restData } = props;
   const { cloudinaryImageId, name, cuisines, avgRating, costForTwo, sla } =
     restData?.info;
+
+  const { loggedInUser } = useContext(UserContext);
   return (
     <div className="m-4 p-4 w-[250px]  rounded-lg bg-gray-100 hover:bg-gray-300 ">
       <img
@@ -21,8 +24,9 @@ const RestaurantCard = (props) => {
       <h4 className="font-semibold py-1 ">{costForTwo} </h4>
       <hr />
       <h4 className="font-semibold py-1 ">{sla?.slaString} </h4>
-      <hr />
       {/*  sla?.slaString === Delivery Time*/}
+      <hr />
+      <h4 className="font-semibold py-1 ">User: {loggedInUser} </h4>
     </div>
   );
 };
@@ -39,7 +43,7 @@ export const withDiscountLabel = (RestaurantCard) => {
     return (
       <div>
         <label className="absolute bg-black text-white rounded-md ml-4 p-2 ">
-          {header === "ITEMS" ? "Discount Soon 🤗" : header}
+          {!header.includes("OFF") ? "Discount Soon 🤗" : header}
         </label>
         <RestaurantCard {...props} />
       </div>
