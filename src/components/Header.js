@@ -3,6 +3,7 @@ import { LOGO_URL } from "../utils/constants";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/UserContext";
+import { useSelector } from "react-redux";
 
 export const Header = () => {
   const [btnNameReact, setBtnNameReact] = useState("Login");
@@ -14,8 +15,10 @@ export const Header = () => {
   const onlineStatus = useOnlineStatus();
 
   const { loggedInUser } = useContext(UserContext);
-  console.log(loggedInUser);
 
+  // Subscribing to the store using Selector
+  const cartItems = useSelector((store) => store.cart.items);
+  console.log(cartItems);
   return (
     <div className="flex justify-between bg-pink-200 shadow-xl sm:bg-yellow-50 lg:bg-green-50">
       {/* if device size is less than < sm show pink or device size is grater than > sm show yellow or device size is greater than > lg show green */}
@@ -47,9 +50,11 @@ export const Header = () => {
               Grocery
             </Link>
           </li>
-          <Link>
-            <li className="px-4 font-bold">Cart</li>
-          </Link>
+
+          <li className="px-4 font-bold ">
+            <Link to={"/cart"}>Cart - ({cartItems.length}) 🛒</Link>
+          </li>
+
           <button
             className="px-4 font-bold"
             onClick={() => {
