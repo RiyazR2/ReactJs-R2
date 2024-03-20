@@ -27,7 +27,7 @@ const Body = () => {
 
     const json = await data.json();
 
-    console.log("SwigyyAPI: ", json);
+    // console.log("SwigyyAPI: ", json);
 
     setListOfRestaurant(
       json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants

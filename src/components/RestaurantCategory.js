@@ -4,7 +4,7 @@ const RestaurantCategory = ({ categoryData, showItems, setIndex }) => {
   const handleClick = () => {
     setIndex(); //
   };
-  console.log("categoryData:", categoryData);
+  // console.log("categoryData:", categoryData);
   return (
     <div>
       <div className="w-6/12 mx-auto my-4 p-4  bg-gray-50 shadow-lg ">

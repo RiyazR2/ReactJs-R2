@@ -39,7 +39,7 @@ const RestaurantCard = (props) => {
 export const withDiscountLabel = (RestaurantCard) => {
   return (props) => {
     const { header } = props?.restData?.info?.aggregatedDiscountInfoV3;
-    console.log("header", props?.restData?.info?.aggregatedDiscountInfoV3);
+    // console.log("header", props?.restData?.info?.aggregatedDiscountInfoV3);
     return (
       <div>
         <label className="absolute bg-black text-white rounded-md ml-4 p-2 ">
