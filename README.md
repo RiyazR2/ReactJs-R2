@@ -20,8 +20,6 @@
 
 # Namaste Food
 
-/\*\*
-
 - Header
 - - Logo
 - - Nav Items
@@ -35,7 +33,6 @@
 - - Links
 - - Address
 - - Contact
-    \*/
 
 # Two Types of Export/Import
 
@@ -57,3 +54,29 @@
 
 - Client Side Routing
 - Server Side Routing
+
+# Redux Toolkit
+
+- Install @reduxjs/toolkit and react-redux
+- Build our Store
+- Connect our store to our App
+- Slice (cart-slice)
+- Dispatch (Action)
+- Selector
+
+# Types of Testing (Developer)
+
+- Unit Testing
+- Integration Testing
+- End to End Testing - E2E Testing
+
+# Setting up Testing in our App
+
+- Installed react testing library (RTL)
+- Installed jest
+- Installed Babel Dependencies
+- Configure Babel
+- Configure Parcel Config file to disable default Babel Transpilation
+- jest Configuration
+- Jest - npx jest --init
+- install jsDOM library
