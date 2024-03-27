@@ -8,7 +8,7 @@ const RestaurantMenu = () => {
   const { resId } = useParams();
 
   const restaurantInfo = useRestaurantMenu(resId);
-  // console.log("restaurantInfo", restaurantInfo);  // ! don't delete this, this is for reference
+  console.log("restaurantInfo", restaurantInfo); // ! don't delete this, this is for reference
 
   //for RestaurantCategory to do Expand or Collapse
   const [showIndex, setShowIndex] = useState(null);
@@ -16,17 +16,17 @@ const RestaurantMenu = () => {
   if (restaurantInfo === null) return <Shimmer />;
 
   const { name, cuisines, costForTwoMessage, avgRating } =
-    restaurantInfo?.cards[0]?.card?.card?.info; // ! Always check the path [json / restaurantInfo]
+    restaurantInfo?.cards[2]?.card?.card?.info; // ! Always check the path [json / restaurantInfo]
 
   // const { itemCards } =
   //   restaurantInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card; // Always check the path [json / restaurantInfo]
   // console.log("itemCards",restaurantInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards);
   const categories =
-    restaurantInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
+    restaurantInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
       (c) =>
         c.card?.card?.["@type"] ===
         "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
-    );
+    ); // ! Always check the path [json / restaurantInfo]
 
   return (
     <div className="menu text-center">
@@ -37,7 +37,7 @@ const RestaurantMenu = () => {
       </h3>
 
       {/* Categories Accordion */}
-      {categories.map((category, index) => (
+      {categories?.map((category, index) => (
         //Controlled Component
         <RestaurantCategory
           key={index}
