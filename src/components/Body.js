@@ -55,6 +55,7 @@ const Body = () => {
         <div className="m-4 p-4">
           <input
             type="text"
+            data-testid="searchInput"
             className="pl-2 border border-solid border-black "
             value={searchText}
             onChange={(e) => {
@@ -79,10 +80,10 @@ const Body = () => {
             className="px-4 py-[3] bg-gray-100 rounded-lg"
             onClick={() => {
               const filteredList = listOfRestaurants.filter(
-                (res) => res?.info?.avgRating > 4
+                (res) => res?.info?.avgRating > 4.2
               );
               console.log(filteredList);
-              setListOfRestaurant(filteredList);
+              setFilteredRestaurant(filteredList);
             }}
           >
             Top Rated Restaurants
@@ -94,7 +95,7 @@ const Body = () => {
             <input
               value={loggedInUser}
               onChange={(e) => setUserName(e.target.value)}
-              className="px-2 border border-black"
+              className="ml-2 px-2 border border-black"
             />
           </label>
         </div>

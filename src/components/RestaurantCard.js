@@ -3,12 +3,16 @@ import UserContext from "../utils/UserContext";
 import { useContext } from "react";
 const RestaurantCard = (props) => {
   const { restData } = props;
+  // console.log(restData);
   const { cloudinaryImageId, name, cuisines, avgRating, costForTwo, sla } =
     restData?.info;
 
   const { loggedInUser } = useContext(UserContext);
   return (
-    <div className="m-4 p-4 w-[250px]  rounded-lg bg-gray-100 hover:bg-gray-300 ">
+    <div
+      data-testid="resCard"
+      className="m-4 p-4 w-[250px]  rounded-lg bg-gray-100 hover:bg-gray-300 "
+    >
       <img
         className="w-full h-[150px] rounded-lg"
         alt="res-logo"
