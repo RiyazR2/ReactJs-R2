@@ -3,7 +3,7 @@
     "data": {
         "statusMessage": "done successfully",
         "pageOffset": {
-            "nextOffset": "COVCELQ4KICIoLW2iJDtdjCnEzgC",
+            "nextOffset": "COVCELQ4KICgscmK8L7EVDCnEzgC",
             "widgetOffset": {
                 "NewListingView_category_bar_chicletranking_TwoRows": "",
                 "NewListingView_category_bar_chicletranking_TwoRows_Rendition": "",
@@ -249,22 +249,6 @@
                                     "frequencyCapping": {}
                                 },
                                 {
-                                    "id": "750132",
-                                    "imageId": "v1674029850/PC_Creative%20refresh/3D_bau/banners_new/Dosa.png",
-                                    "action": {
-                                        "link": "https://www.swiggy.com/collections/80426?collection_id=80426&tags=layout_CCS_Dosa&type=rcv2",
-                                        "text": "Dosa",
-                                        "type": "WEBLINK"
-                                    },
-                                    "entityType": "BANNER",
-                                    "accessibility": {
-                                        "altText": "restaurants curated for dosa",
-                                        "altTextCta": "open"
-                                    },
-                                    "entityId": "swiggy://collectionV2?collection_id=80426&tags=layout_CCS_Dosa",
-                                    "frequencyCapping": {}
-                                },
-                                {
                                     "id": "749874",
                                     "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Cakes.png",
                                     "action": {
@@ -278,22 +262,6 @@
                                         "altTextCta": "open"
                                     },
                                     "entityId": "swiggy://collectionV2?collection_id=83656&tags=layout_CCS_Cake",
-                                    "frequencyCapping": {}
-                                },
-                                {
-                                    "id": "750226",
-                                    "imageId": "v1674029859/PC_Creative%20refresh/3D_bau/banners_new/Salad.png",
-                                    "action": {
-                                        "link": "https://www.swiggy.com/collections/80395?collection_id=80395&tags=layout_CCS_Salad&type=rcv2",
-                                        "text": "Salad",
-                                        "type": "WEBLINK"
-                                    },
-                                    "entityType": "BANNER",
-                                    "accessibility": {
-                                        "altText": "restaurant curated for salad",
-                                        "altTextCta": "open"
-                                    },
-                                    "entityId": "swiggy://collectionV2?collection_id=80395&tags=layout_CCS_Salad",
                                     "frequencyCapping": {}
                                 },
                                 {
@@ -313,19 +281,35 @@
                                     "frequencyCapping": {}
                                 },
                                 {
-                                    "id": "749774",
-                                    "imageId": "v1674029855/PC_Creative%20refresh/3D_bau/banners_new/Noodles.png",
+                                    "id": "750132",
+                                    "imageId": "v1674029850/PC_Creative%20refresh/3D_bau/banners_new/Dosa.png",
                                     "action": {
-                                        "link": "https://www.swiggy.com/collections/80464?collection_id=80464&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
-                                        "text": "Noodles",
+                                        "link": "https://www.swiggy.com/collections/80426?collection_id=80426&tags=layout_CCS_Dosa&type=rcv2",
+                                        "text": "Dosa",
                                         "type": "WEBLINK"
                                     },
                                     "entityType": "BANNER",
                                     "accessibility": {
-                                        "altText": "restaurant curated for noodles",
+                                        "altText": "restaurants curated for dosa",
                                         "altTextCta": "open"
                                     },
-                                    "entityId": "80464",
+                                    "entityId": "swiggy://collectionV2?collection_id=80426&tags=layout_CCS_Dosa",
+                                    "frequencyCapping": {}
+                                },
+                                {
+                                    "id": "750226",
+                                    "imageId": "v1674029859/PC_Creative%20refresh/3D_bau/banners_new/Salad.png",
+                                    "action": {
+                                        "link": "https://www.swiggy.com/collections/80395?collection_id=80395&tags=layout_CCS_Salad&type=rcv2",
+                                        "text": "Salad",
+                                        "type": "WEBLINK"
+                                    },
+                                    "entityType": "BANNER",
+                                    "accessibility": {
+                                        "altText": "restaurant curated for salad",
+                                        "altTextCta": "open"
+                                    },
+                                    "entityId": "swiggy://collectionV2?collection_id=80395&tags=layout_CCS_Salad",
                                     "frequencyCapping": {}
                                 },
                                 {
@@ -342,6 +326,22 @@
                                         "altTextCta": "open"
                                     },
                                     "entityId": "swiggy://collectionV2?collection_id=80439&tags=layout_CCS_PureVeg",
+                                    "frequencyCapping": {}
+                                },
+                                {
+                                    "id": "749774",
+                                    "imageId": "v1674029855/PC_Creative%20refresh/3D_bau/banners_new/Noodles.png",
+                                    "action": {
+                                        "link": "https://www.swiggy.com/collections/80464?collection_id=80464&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
+                                        "text": "Noodles",
+                                        "type": "WEBLINK"
+                                    },
+                                    "entityType": "BANNER",
+                                    "accessibility": {
+                                        "altText": "restaurant curated for noodles",
+                                        "altTextCta": "open"
+                                    },
+                                    "entityId": "80464",
                                     "frequencyCapping": {}
                                 },
                                 {
@@ -588,22 +588,6 @@
                                         "frequencyCapping": {}
                                     },
                                     {
-                                        "id": "750132",
-                                        "imageId": "v1674029850/PC_Creative%20refresh/3D_bau/banners_new/Dosa.png",
-                                        "action": {
-                                            "link": "https://www.swiggy.com/collections/80426?collection_id=80426&tags=layout_CCS_Dosa&type=rcv2",
-                                            "text": "Dosa",
-                                            "type": "WEBLINK"
-                                        },
-                                        "entityType": "BANNER",
-                                        "accessibility": {
-                                            "altText": "restaurants curated for dosa",
-                                            "altTextCta": "open"
-                                        },
-                                        "entityId": "swiggy://collectionV2?collection_id=80426&tags=layout_CCS_Dosa",
-                                        "frequencyCapping": {}
-                                    },
-                                    {
                                         "id": "749874",
                                         "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Cakes.png",
                                         "action": {
@@ -617,22 +601,6 @@
                                             "altTextCta": "open"
                                         },
                                         "entityId": "swiggy://collectionV2?collection_id=83656&tags=layout_CCS_Cake",
-                                        "frequencyCapping": {}
-                                    },
-                                    {
-                                        "id": "750226",
-                                        "imageId": "v1674029859/PC_Creative%20refresh/3D_bau/banners_new/Salad.png",
-                                        "action": {
-                                            "link": "https://www.swiggy.com/collections/80395?collection_id=80395&tags=layout_CCS_Salad&type=rcv2",
-                                            "text": "Salad",
-                                            "type": "WEBLINK"
-                                        },
-                                        "entityType": "BANNER",
-                                        "accessibility": {
-                                            "altText": "restaurant curated for salad",
-                                            "altTextCta": "open"
-                                        },
-                                        "entityId": "swiggy://collectionV2?collection_id=80395&tags=layout_CCS_Salad",
                                         "frequencyCapping": {}
                                     },
                                     {
@@ -652,19 +620,35 @@
                                         "frequencyCapping": {}
                                     },
                                     {
-                                        "id": "749774",
-                                        "imageId": "v1674029855/PC_Creative%20refresh/3D_bau/banners_new/Noodles.png",
+                                        "id": "750132",
+                                        "imageId": "v1674029850/PC_Creative%20refresh/3D_bau/banners_new/Dosa.png",
                                         "action": {
-                                            "link": "https://www.swiggy.com/collections/80464?collection_id=80464&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
-                                            "text": "Noodles",
+                                            "link": "https://www.swiggy.com/collections/80426?collection_id=80426&tags=layout_CCS_Dosa&type=rcv2",
+                                            "text": "Dosa",
                                             "type": "WEBLINK"
                                         },
                                         "entityType": "BANNER",
                                         "accessibility": {
-                                            "altText": "restaurant curated for noodles",
+                                            "altText": "restaurants curated for dosa",
                                             "altTextCta": "open"
                                         },
-                                        "entityId": "80464",
+                                        "entityId": "swiggy://collectionV2?collection_id=80426&tags=layout_CCS_Dosa",
+                                        "frequencyCapping": {}
+                                    },
+                                    {
+                                        "id": "750226",
+                                        "imageId": "v1674029859/PC_Creative%20refresh/3D_bau/banners_new/Salad.png",
+                                        "action": {
+                                            "link": "https://www.swiggy.com/collections/80395?collection_id=80395&tags=layout_CCS_Salad&type=rcv2",
+                                            "text": "Salad",
+                                            "type": "WEBLINK"
+                                        },
+                                        "entityType": "BANNER",
+                                        "accessibility": {
+                                            "altText": "restaurant curated for salad",
+                                            "altTextCta": "open"
+                                        },
+                                        "entityId": "swiggy://collectionV2?collection_id=80395&tags=layout_CCS_Salad",
                                         "frequencyCapping": {}
                                     },
                                     {
@@ -681,6 +665,22 @@
                                             "altTextCta": "open"
                                         },
                                         "entityId": "swiggy://collectionV2?collection_id=80439&tags=layout_CCS_PureVeg",
+                                        "frequencyCapping": {}
+                                    },
+                                    {
+                                        "id": "749774",
+                                        "imageId": "v1674029855/PC_Creative%20refresh/3D_bau/banners_new/Noodles.png",
+                                        "action": {
+                                            "link": "https://www.swiggy.com/collections/80464?collection_id=80464&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
+                                            "text": "Noodles",
+                                            "type": "WEBLINK"
+                                        },
+                                        "entityType": "BANNER",
+                                        "accessibility": {
+                                            "altText": "restaurant curated for noodles",
+                                            "altTextCta": "open"
+                                        },
+                                        "entityId": "80464",
                                         "frequencyCapping": {}
                                     },
                                     {
@@ -791,94 +791,29 @@
                                 "restaurants": [
                                     {
                                         "info": {
-                                            "id": "105253",
-                                            "name": "UBQ by Barbeque Nation",
-                                            "cloudinaryImageId": "uzoqgrtjzm4bvxf4d7hp",
-                                            "locality": "Nagar Road",
-                                            "areaName": "Kalyani Nagar",
-                                            "costForTwo": "₹300 for two",
-                                            "cuisines": [
-                                                "North Indian",
-                                                "Barbecue",
-                                                "Biryani",
-                                                "Kebabs",
-                                                "Mughlai",
-                                                "Desserts"
-                                            ],
-                                            "avgRating": 4,
-                                            "parentId": "10804",
-                                            "avgRatingString": "4.0",
-                                            "totalRatingsString": "5K+",
-                                            "sla": {
-                                                "deliveryTime": 37,
-                                                "lastMileTravel": 4.8,
-                                                "serviceability": "SERVICEABLE",
-                                                "slaString": "35-40 mins",
-                                                "lastMileTravelString": "4.8 km",
-                                                "iconType": "ICON_TYPE_EMPTY"
-                                            },
-                                            "availability": {
-                                                "nextCloseTime": "2024-03-27 23:30:00",
-                                                "opened": true
-                                            },
-                                            "badges": {},
-                                            "isOpen": true,
-                                            "type": "F",
-                                            "badgesV2": {
-                                                "entityBadges": {
-                                                    "imageBased": {},
-                                                    "textBased": {},
-                                                    "textExtendedBadges": {}
-                                                }
-                                            },
-                                            "aggregatedDiscountInfoV3": {
-                                                "header": "₹100 OFF",
-                                                "subHeader": "ABOVE ₹200",
-                                                "discountTag": "GET"
-                                            },
-                                            "differentiatedUi": {
-                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                                                "differentiatedUiMediaDetails": {
-                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                                                    "lottie": {},
-                                                    "video": {}
-                                                }
-                                            },
-                                            "reviewsSummary": {},
-                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                                            "restaurantOfferPresentationInfo": {}
-                                        },
-                                        "analytics": {},
-                                        "cta": {
-                                            "link": "https://www.swiggy.com/restaurants/ubq-by-barbeque-nation-nagar-road-kalyani-nagar-pune-105253",
-                                            "type": "WEBLINK"
-                                        }
-                                    },
-                                    {
-                                        "info": {
-                                            "id": "10290",
+                                            "id": "10287",
                                             "name": "Pizza Hut",
                                             "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
-                                            "locality": "Kalyani Nagar",
-                                            "areaName": "Kalyani Nagar",
+                                            "locality": "Camp",
+                                            "areaName": "Camp",
                                             "costForTwo": "₹350 for two",
                                             "cuisines": [
                                                 "Pizzas"
                                             ],
-                                            "avgRating": 4.1,
+                                            "avgRating": 4.2,
                                             "parentId": "721",
-                                            "avgRatingString": "4.1",
+                                            "avgRatingString": "4.2",
                                             "totalRatingsString": "5K+",
                                             "sla": {
-                                                "deliveryTime": 42,
-                                                "lastMileTravel": 5,
+                                                "deliveryTime": 31,
+                                                "lastMileTravel": 2.2,
                                                 "serviceability": "SERVICEABLE",
-                                                "slaString": "40-45 mins",
-                                                "lastMileTravelString": "5.0 km",
+                                                "slaString": "30-35 mins",
+                                                "lastMileTravelString": "2.2 km",
                                                 "iconType": "ICON_TYPE_EMPTY"
                                             },
                                             "availability": {
-                                                "nextCloseTime": "2024-03-28 02:00:00",
+                                                "nextCloseTime": "2024-03-29 00:00:00",
                                                 "opened": true
                                             },
                                             "badges": {
@@ -908,9 +843,8 @@
                                                 }
                                             },
                                             "aggregatedDiscountInfoV3": {
-                                                "header": "₹75 OFF",
-                                                "subHeader": "ABOVE ₹250",
-                                                "discountTag": "GET"
+                                                "header": "30% OFF",
+                                                "subHeader": "UPTO ₹75"
                                             },
                                             "differentiatedUi": {
                                                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -926,7 +860,71 @@
                                         },
                                         "analytics": {},
                                         "cta": {
-                                            "link": "https://www.swiggy.com/restaurants/pizza-hut-kalyani-nagar-pune-10290",
+                                            "link": "https://www.swiggy.com/restaurants/pizza-hut-camp-pune-10287",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "105252",
+                                            "name": "UBQ by Barbeque Nation",
+                                            "cloudinaryImageId": "ogne1kzrf0fhhzth5kp7",
+                                            "locality": "R Deccan Mall",
+                                            "areaName": "JM Road",
+                                            "costForTwo": "₹300 for two",
+                                            "cuisines": [
+                                                "North Indian",
+                                                "Barbecue",
+                                                "Biryani",
+                                                "Kebabs",
+                                                "Mughlai",
+                                                "Desserts"
+                                            ],
+                                            "avgRating": 4,
+                                            "parentId": "10804",
+                                            "avgRatingString": "4.0",
+                                            "totalRatingsString": "1K+",
+                                            "sla": {
+                                                "deliveryTime": 51,
+                                                "lastMileTravel": 4.2,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "50-55 mins",
+                                                "lastMileTravelString": "4.2 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2024-03-28 23:30:00",
+                                                "opened": true
+                                            },
+                                            "badges": {},
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "50% OFF",
+                                                "subHeader": "UPTO ₹100"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {}
+                                        },
+                                        "analytics": {},
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/restaurants/ubq-by-barbeque-nation-r-deccan-mall-jm-road-pune-105252",
                                             "type": "WEBLINK"
                                         }
                                     },
@@ -948,20 +946,20 @@
                                                 "Desserts",
                                                 "Beverages"
                                             ],
-                                            "avgRating": 4.2,
+                                            "avgRating": 4.3,
                                             "parentId": "1776",
-                                            "avgRatingString": "4.2",
+                                            "avgRatingString": "4.3",
                                             "totalRatingsString": "500+",
                                             "sla": {
-                                                "deliveryTime": 46,
+                                                "deliveryTime": 45,
                                                 "lastMileTravel": 5,
                                                 "serviceability": "SERVICEABLE",
-                                                "slaString": "45-50 mins",
+                                                "slaString": "40-45 mins",
                                                 "lastMileTravelString": "5.0 km",
                                                 "iconType": "ICON_TYPE_EMPTY"
                                             },
                                             "availability": {
-                                                "nextCloseTime": "2024-03-28 02:00:00",
+                                                "nextCloseTime": "2024-03-29 02:00:00",
                                                 "opened": true
                                             },
                                             "badges": {},
@@ -975,9 +973,8 @@
                                                 }
                                             },
                                             "aggregatedDiscountInfoV3": {
-                                                "header": "₹120 OFF",
-                                                "subHeader": "ABOVE ₹200",
-                                                "discountTag": "GET"
+                                                "header": "ITEMS",
+                                                "subHeader": "AT ₹99"
                                             },
                                             "differentiatedUi": {
                                                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1016,15 +1013,15 @@
                                             "avgRatingString": "4.5",
                                             "totalRatingsString": "10K+",
                                             "sla": {
-                                                "deliveryTime": 32,
+                                                "deliveryTime": 23,
                                                 "lastMileTravel": 2.2,
                                                 "serviceability": "SERVICEABLE",
-                                                "slaString": "30-35 mins",
+                                                "slaString": "20-25 mins",
                                                 "lastMileTravelString": "2.2 km",
                                                 "iconType": "ICON_TYPE_EMPTY"
                                             },
                                             "availability": {
-                                                "nextCloseTime": "2024-03-27 23:00:00",
+                                                "nextCloseTime": "2024-03-28 23:00:00",
                                                 "opened": true
                                             },
                                             "badges": {
@@ -1036,6 +1033,7 @@
                                                 ]
                                             },
                                             "isOpen": true,
+                                            "aggregatedDiscountInfoV2": {},
                                             "type": "F",
                                             "badgesV2": {
                                                 "entityBadges": {
@@ -1052,10 +1050,6 @@
                                                     "textBased": {},
                                                     "textExtendedBadges": {}
                                                 }
-                                            },
-                                            "aggregatedDiscountInfoV3": {
-                                                "header": "ITEMS",
-                                                "subHeader": "AT ₹199"
                                             },
                                             "differentiatedUi": {
                                                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1095,15 +1089,15 @@
                                             "avgRatingString": "4.1",
                                             "totalRatingsString": "5K+",
                                             "sla": {
-                                                "deliveryTime": 36,
+                                                "deliveryTime": 25,
                                                 "lastMileTravel": 2.3,
                                                 "serviceability": "SERVICEABLE",
-                                                "slaString": "35-40 mins",
+                                                "slaString": "25-30 mins",
                                                 "lastMileTravelString": "2.3 km",
                                                 "iconType": "ICON_TYPE_EMPTY"
                                             },
                                             "availability": {
-                                                "nextCloseTime": "2024-03-27 22:00:00",
+                                                "nextCloseTime": "2024-03-28 22:00:00",
                                                 "opened": true
                                             },
                                             "badges": {
@@ -1133,9 +1127,8 @@
                                                 }
                                             },
                                             "aggregatedDiscountInfoV3": {
-                                                "header": "₹50 OFF",
-                                                "subHeader": "ABOVE ₹250",
-                                                "discountTag": "GET"
+                                                "header": "ITEMS",
+                                                "subHeader": "AT ₹179"
                                             },
                                             "differentiatedUi": {
                                                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1157,149 +1150,6 @@
                                     },
                                     {
                                         "info": {
-                                            "id": "386176",
-                                            "name": "NIC Ice Creams",
-                                            "cloudinaryImageId": "85825a6d74b1059a63a9b688de9f67ce",
-                                            "locality": "Prabhat Road",
-                                            "areaName": "Shivaji Nagar",
-                                            "costForTwo": "₹120 for two",
-                                            "cuisines": [
-                                                "Ice Cream",
-                                                "Desserts"
-                                            ],
-                                            "avgRating": 4.6,
-                                            "veg": true,
-                                            "parentId": "6249",
-                                            "avgRatingString": "4.6",
-                                            "totalRatingsString": "1K+",
-                                            "sla": {
-                                                "deliveryTime": 31,
-                                                "lastMileTravel": 2.8,
-                                                "serviceability": "SERVICEABLE",
-                                                "slaString": "30-35 mins",
-                                                "lastMileTravelString": "2.8 km",
-                                                "iconType": "ICON_TYPE_EMPTY"
-                                            },
-                                            "availability": {
-                                                "nextCloseTime": "2024-03-28 00:00:00",
-                                                "opened": true
-                                            },
-                                            "badges": {
-                                                "imageBadges": [
-                                                    {
-                                                        "imageId": "Rxawards/_CATEGORY-Ice-creams.png",
-                                                        "description": "Delivery!"
-                                                    }
-                                                ]
-                                            },
-                                            "isOpen": true,
-                                            "type": "F",
-                                            "badgesV2": {
-                                                "entityBadges": {
-                                                    "imageBased": {
-                                                        "badgeObject": [
-                                                            {
-                                                                "attributes": {
-                                                                    "description": "Delivery!",
-                                                                    "imageId": "Rxawards/_CATEGORY-Ice-creams.png"
-                                                                }
-                                                            }
-                                                        ]
-                                                    },
-                                                    "textBased": {},
-                                                    "textExtendedBadges": {}
-                                                }
-                                            },
-                                            "aggregatedDiscountInfoV3": {
-                                                "header": "₹120 OFF",
-                                                "subHeader": "ABOVE ₹200",
-                                                "discountTag": "GET"
-                                            },
-                                            "differentiatedUi": {
-                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                                                "differentiatedUiMediaDetails": {
-                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                                                    "lottie": {},
-                                                    "video": {}
-                                                }
-                                            },
-                                            "reviewsSummary": {},
-                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                                            "restaurantOfferPresentationInfo": {}
-                                        },
-                                        "analytics": {},
-                                        "cta": {
-                                            "link": "https://www.swiggy.com/restaurants/nic-ice-creams-prabhat-road-shivaji-nagar-pune-386176",
-                                            "type": "WEBLINK"
-                                        }
-                                    },
-                                    {
-                                        "info": {
-                                            "id": "5625",
-                                            "name": "Subway",
-                                            "cloudinaryImageId": "63178e3e64d503a479f2a2048a474552",
-                                            "locality": "East Street",
-                                            "areaName": "Camp",
-                                            "costForTwo": "₹350 for two",
-                                            "cuisines": [
-                                                "Fast Food",
-                                                "Healthy Food",
-                                                "Salads",
-                                                "Snacks",
-                                                "Desserts",
-                                                "Beverages"
-                                            ],
-                                            "avgRating": 4.1,
-                                            "parentId": "2",
-                                            "avgRatingString": "4.1",
-                                            "totalRatingsString": "10K+",
-                                            "sla": {
-                                                "deliveryTime": 34,
-                                                "lastMileTravel": 2.4,
-                                                "serviceability": "SERVICEABLE",
-                                                "slaString": "30-35 mins",
-                                                "lastMileTravelString": "2.4 km",
-                                                "iconType": "ICON_TYPE_EMPTY"
-                                            },
-                                            "availability": {
-                                                "nextCloseTime": "2024-03-27 23:45:00",
-                                                "opened": true
-                                            },
-                                            "badges": {},
-                                            "isOpen": true,
-                                            "type": "F",
-                                            "badgesV2": {
-                                                "entityBadges": {
-                                                    "imageBased": {},
-                                                    "textBased": {},
-                                                    "textExtendedBadges": {}
-                                                }
-                                            },
-                                            "aggregatedDiscountInfoV3": {
-                                                "header": "₹75 OFF",
-                                                "subHeader": "ABOVE ₹250",
-                                                "discountTag": "GET"
-                                            },
-                                            "differentiatedUi": {
-                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                                                "differentiatedUiMediaDetails": {
-                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                                                    "lottie": {},
-                                                    "video": {}
-                                                }
-                                            },
-                                            "reviewsSummary": {},
-                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                                            "restaurantOfferPresentationInfo": {}
-                                        },
-                                        "analytics": {},
-                                        "cta": {
-                                            "link": "https://www.swiggy.com/restaurants/subway-east-street-camp-pune-5625",
-                                            "type": "WEBLINK"
-                                        }
-                                    },
-                                    {
-                                        "info": {
                                             "id": "77736",
                                             "name": "1441 Pizzeria",
                                             "cloudinaryImageId": "c7fcd9e43f4b995c3cd08d7632b426f0",
@@ -1316,15 +1166,15 @@
                                             "avgRatingString": "4.1",
                                             "totalRatingsString": "1K+",
                                             "sla": {
-                                                "deliveryTime": 32,
+                                                "deliveryTime": 35,
                                                 "lastMileTravel": 2.4,
                                                 "serviceability": "SERVICEABLE",
-                                                "slaString": "30-35 mins",
+                                                "slaString": "35-40 mins",
                                                 "lastMileTravelString": "2.4 km",
                                                 "iconType": "ICON_TYPE_EMPTY"
                                             },
                                             "availability": {
-                                                "nextCloseTime": "2024-03-28 01:00:00",
+                                                "nextCloseTime": "2024-03-29 01:00:00",
                                                 "opened": true
                                             },
                                             "badges": {
@@ -1354,9 +1204,8 @@
                                                 }
                                             },
                                             "aggregatedDiscountInfoV3": {
-                                                "header": "₹120 OFF",
-                                                "subHeader": "ABOVE ₹200",
-                                                "discountTag": "GET"
+                                                "header": "60% OFF",
+                                                "subHeader": "UPTO ₹120"
                                             },
                                             "differentiatedUi": {
                                                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1394,15 +1243,15 @@
                                             "avgRatingString": "4.4",
                                             "totalRatingsString": "1K+",
                                             "sla": {
-                                                "deliveryTime": 27,
+                                                "deliveryTime": 31,
                                                 "lastMileTravel": 1.7,
                                                 "serviceability": "SERVICEABLE",
-                                                "slaString": "25-30 mins",
+                                                "slaString": "30-35 mins",
                                                 "lastMileTravelString": "1.7 km",
                                                 "iconType": "ICON_TYPE_EMPTY"
                                             },
                                             "availability": {
-                                                "nextCloseTime": "2024-03-27 16:00:00",
+                                                "nextCloseTime": "2024-03-28 16:00:00",
                                                 "opened": true
                                             },
                                             "badges": {
@@ -1456,83 +1305,6 @@
                                     },
                                     {
                                         "info": {
-                                            "id": "5686",
-                                            "name": "Asia Kitchen By Mainland China",
-                                            "cloudinaryImageId": "drhmwwing7pfd2ozyx9s",
-                                            "locality": "Dhole Patil Road",
-                                            "areaName": "Dhole Patil Road",
-                                            "costForTwo": "₹850 for two",
-                                            "cuisines": [
-                                                "Asian",
-                                                "Chinese"
-                                            ],
-                                            "avgRating": 4.6,
-                                            "parentId": "1831",
-                                            "avgRatingString": "4.6",
-                                            "totalRatingsString": "1K+",
-                                            "sla": {
-                                                "deliveryTime": 28,
-                                                "lastMileTravel": 1.7,
-                                                "serviceability": "SERVICEABLE",
-                                                "slaString": "25-30 mins",
-                                                "lastMileTravelString": "1.7 km",
-                                                "iconType": "ICON_TYPE_EMPTY"
-                                            },
-                                            "availability": {
-                                                "nextCloseTime": "2024-03-27 16:00:00",
-                                                "opened": true
-                                            },
-                                            "badges": {
-                                                "imageBadges": [
-                                                    {
-                                                        "imageId": "newg.png",
-                                                        "description": "Gourmet"
-                                                    }
-                                                ]
-                                            },
-                                            "isOpen": true,
-                                            "type": "F",
-                                            "badgesV2": {
-                                                "entityBadges": {
-                                                    "imageBased": {
-                                                        "badgeObject": [
-                                                            {
-                                                                "attributes": {
-                                                                    "description": "Gourmet",
-                                                                    "imageId": "newg.png"
-                                                                }
-                                                            }
-                                                        ]
-                                                    },
-                                                    "textBased": {},
-                                                    "textExtendedBadges": {}
-                                                }
-                                            },
-                                            "aggregatedDiscountInfoV3": {
-                                                "header": "₹125 OFF",
-                                                "subHeader": "ABOVE ₹249",
-                                                "discountTag": "FLAT DEAL"
-                                            },
-                                            "differentiatedUi": {
-                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                                                "differentiatedUiMediaDetails": {
-                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                                                    "lottie": {},
-                                                    "video": {}
-                                                }
-                                            },
-                                            "reviewsSummary": {},
-                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                                            "restaurantOfferPresentationInfo": {}
-                                        },
-                                        "analytics": {},
-                                        "cta": {
-                                            "link": "https://www.swiggy.com/restaurants/asia-kitchen-by-mainland-china-dhole-patil-road-pune-5686",
-                                            "type": "WEBLINK"
-                                        }
-                                    },
-                                    {
-                                        "info": {
                                             "id": "412737",
                                             "name": "Sweet Bengal",
                                             "cloudinaryImageId": "i39qgflu6azefcqs5phc",
@@ -1559,7 +1331,7 @@
                                                 "iconType": "ICON_TYPE_EMPTY"
                                             },
                                             "availability": {
-                                                "nextCloseTime": "2024-03-27 22:00:00",
+                                                "nextCloseTime": "2024-03-28 22:00:00",
                                                 "opened": true
                                             },
                                             "badges": {},
@@ -1573,9 +1345,8 @@
                                                 }
                                             },
                                             "aggregatedDiscountInfoV3": {
-                                                "header": "₹50 OFF",
-                                                "subHeader": "ABOVE ₹250",
-                                                "discountTag": "GET"
+                                                "header": "20% OFF",
+                                                "subHeader": "UPTO ₹50"
                                             },
                                             "differentiatedUi": {
                                                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1612,15 +1383,15 @@
                                             "avgRatingString": "4.5",
                                             "totalRatingsString": "500+",
                                             "sla": {
-                                                "deliveryTime": 29,
+                                                "deliveryTime": 34,
                                                 "lastMileTravel": 1.7,
                                                 "serviceability": "SERVICEABLE",
-                                                "slaString": "25-30 mins",
+                                                "slaString": "30-35 mins",
                                                 "lastMileTravelString": "1.7 km",
                                                 "iconType": "ICON_TYPE_EMPTY"
                                             },
                                             "availability": {
-                                                "nextCloseTime": "2024-03-27 16:00:00",
+                                                "nextCloseTime": "2024-03-28 16:00:00",
                                                 "opened": true
                                             },
                                             "badges": {
@@ -1684,31 +1455,30 @@
                                     },
                                     {
                                         "info": {
-                                            "id": "37006",
-                                            "name": "Sante Spa Cuisine",
-                                            "cloudinaryImageId": "m6hbuc3gefoum40jfvp7",
-                                            "locality": "Vasani Nagar",
-                                            "areaName": "Koregaon Park",
-                                            "costForTwo": "₹800 for two",
+                                            "id": "5686",
+                                            "name": "Asia Kitchen By Mainland China",
+                                            "cloudinaryImageId": "drhmwwing7pfd2ozyx9s",
+                                            "locality": "Dhole Patil Road",
+                                            "areaName": "Dhole Patil Road",
+                                            "costForTwo": "₹850 for two",
                                             "cuisines": [
-                                                "Indian",
                                                 "Asian",
-                                                "Italian"
+                                                "Chinese"
                                             ],
-                                            "avgRating": 4.5,
-                                            "parentId": "16814",
-                                            "avgRatingString": "4.5",
+                                            "avgRating": 4.6,
+                                            "parentId": "1831",
+                                            "avgRatingString": "4.6",
                                             "totalRatingsString": "1K+",
                                             "sla": {
-                                                "deliveryTime": 33,
-                                                "lastMileTravel": 2.8,
+                                                "deliveryTime": 32,
+                                                "lastMileTravel": 1.7,
                                                 "serviceability": "SERVICEABLE",
                                                 "slaString": "30-35 mins",
-                                                "lastMileTravelString": "2.8 km",
+                                                "lastMileTravelString": "1.7 km",
                                                 "iconType": "ICON_TYPE_EMPTY"
                                             },
                                             "availability": {
-                                                "nextCloseTime": "2024-03-27 22:45:00",
+                                                "nextCloseTime": "2024-03-28 16:00:00",
                                                 "opened": true
                                             },
                                             "badges": {
@@ -1716,13 +1486,6 @@
                                                     {
                                                         "imageId": "newg.png",
                                                         "description": "Gourmet"
-                                                    }
-                                                ],
-                                                "textExtendedBadges": [
-                                                    {
-                                                        "iconId": "guiltfree/GF_Logo_android_3x",
-                                                        "shortDescription": "brand",
-                                                        "fontColor": "#7E808C"
                                                     }
                                                 ]
                                             },
@@ -1741,18 +1504,7 @@
                                                         ]
                                                     },
                                                     "textBased": {},
-                                                    "textExtendedBadges": {
-                                                        "badgeObject": [
-                                                            {
-                                                                "attributes": {
-                                                                    "description": "",
-                                                                    "fontColor": "#7E808C",
-                                                                    "iconId": "guiltfree/GF_Logo_android_3x",
-                                                                    "shortDescription": "brand"
-                                                                }
-                                                            }
-                                                        ]
-                                                    }
+                                                    "textExtendedBadges": {}
                                                 }
                                             },
                                             "aggregatedDiscountInfoV3": {
@@ -1774,89 +1526,53 @@
                                         },
                                         "analytics": {},
                                         "cta": {
-                                            "link": "https://www.swiggy.com/restaurants/sante-spa-cuisine-vasani-nagar-koregaon-park-pune-37006",
+                                            "link": "https://www.swiggy.com/restaurants/asia-kitchen-by-mainland-china-dhole-patil-road-pune-5686",
                                             "type": "WEBLINK"
                                         }
                                     },
                                     {
                                         "info": {
-                                            "id": "6728",
-                                            "name": "Little Italy",
-                                            "cloudinaryImageId": "nebmpzgclwofwgloxxwx",
-                                            "locality": "Bund Garden Road",
-                                            "areaName": "Bund Garden Road",
-                                            "costForTwo": "₹1200 for two",
+                                            "id": "29639",
+                                            "name": "Eatsome- Wraps & Rolls",
+                                            "cloudinaryImageId": "e56240a4b58956f47a5a1f8392470fbe",
+                                            "locality": "J.M.Road",
+                                            "areaName": "Shivajinagar",
+                                            "costForTwo": "₹300 for two",
                                             "cuisines": [
-                                                "Italian",
-                                                "Pizzas",
-                                                "Pastas",
-                                                "Salads",
-                                                "Desserts"
+                                                "North Indian",
+                                                "Biryani",
+                                                "Street Food",
+                                                "Beverages"
                                             ],
-                                            "avgRating": 4.1,
-                                            "parentId": "600",
-                                            "avgRatingString": "4.1",
-                                            "totalRatingsString": "1K+",
+                                            "avgRating": 4.2,
+                                            "parentId": "471587",
+                                            "avgRatingString": "4.2",
+                                            "totalRatingsString": "5K+",
                                             "sla": {
-                                                "deliveryTime": 32,
-                                                "lastMileTravel": 2,
+                                                "deliveryTime": 31,
+                                                "lastMileTravel": 3.9,
                                                 "serviceability": "SERVICEABLE",
                                                 "slaString": "30-35 mins",
-                                                "lastMileTravelString": "2.0 km",
+                                                "lastMileTravelString": "3.9 km",
                                                 "iconType": "ICON_TYPE_EMPTY"
                                             },
                                             "availability": {
-                                                "nextCloseTime": "2024-03-28 01:00:00",
+                                                "nextCloseTime": "2024-03-28 23:00:00",
                                                 "opened": true
                                             },
-                                            "badges": {
-                                                "imageBadges": [
-                                                    {
-                                                        "imageId": "newg.png",
-                                                        "description": "Gourmet"
-                                                    }
-                                                ],
-                                                "textExtendedBadges": [
-                                                    {
-                                                        "iconId": "guiltfree/GF_Logo_android_3x",
-                                                        "shortDescription": "options available",
-                                                        "fontColor": "#7E808C"
-                                                    }
-                                                ]
-                                            },
+                                            "badges": {},
                                             "isOpen": true,
                                             "type": "F",
                                             "badgesV2": {
                                                 "entityBadges": {
-                                                    "imageBased": {
-                                                        "badgeObject": [
-                                                            {
-                                                                "attributes": {
-                                                                    "description": "Gourmet",
-                                                                    "imageId": "newg.png"
-                                                                }
-                                                            }
-                                                        ]
-                                                    },
+                                                    "imageBased": {},
                                                     "textBased": {},
-                                                    "textExtendedBadges": {
-                                                        "badgeObject": [
-                                                            {
-                                                                "attributes": {
-                                                                    "description": "",
-                                                                    "fontColor": "#7E808C",
-                                                                    "iconId": "guiltfree/GF_Logo_android_3x",
-                                                                    "shortDescription": "options available"
-                                                                }
-                                                            }
-                                                        ]
-                                                    }
+                                                    "textExtendedBadges": {}
                                                 }
                                             },
                                             "aggregatedDiscountInfoV3": {
-                                                "header": "₹120 OFF",
-                                                "subHeader": "ABOVE ₹200",
-                                                "discountTag": "GET"
+                                                "header": "50% OFF",
+                                                "subHeader": "UPTO ₹100"
                                             },
                                             "differentiatedUi": {
                                                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1872,7 +1588,368 @@
                                         },
                                         "analytics": {},
                                         "cta": {
-                                            "link": "https://www.swiggy.com/restaurants/little-italy-bund-garden-road-pune-6728",
+                                            "link": "https://www.swiggy.com/restaurants/eatsome-wraps-and-rolls-j-m-road-shivajinagar-pune-29639",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "650982",
+                                            "name": "The Brooklyn Creamery - Healthy Ice Cream",
+                                            "cloudinaryImageId": "b1b35780a9b1dfeb26d680506d494eaa",
+                                            "locality": "Convent Street",
+                                            "areaName": "Camp Area",
+                                            "costForTwo": "₹200 for two",
+                                            "cuisines": [
+                                                "Desserts",
+                                                "Ice Cream",
+                                                "Healthy Food"
+                                            ],
+                                            "avgRating": 4.5,
+                                            "veg": true,
+                                            "parentId": "236673",
+                                            "avgRatingString": "4.5",
+                                            "totalRatingsString": "20+",
+                                            "sla": {
+                                                "deliveryTime": 30,
+                                                "lastMileTravel": 1.9,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "30-35 mins",
+                                                "lastMileTravelString": "1.9 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2024-03-28 22:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "textExtendedBadges": [
+                                                    {
+                                                        "iconId": "guiltfree/GF_Logo_android_3x",
+                                                        "shortDescription": "brand",
+                                                        "fontColor": "#7E808C"
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "",
+                                                                    "fontColor": "#7E808C",
+                                                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                                                    "shortDescription": "brand"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "60% OFF",
+                                                "subHeader": "UPTO ₹120"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {}
+                                        },
+                                        "analytics": {},
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/restaurants/the-brooklyn-creamery-healthy-ice-cream-convent-street-camp-area-pune-650982",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "395183",
+                                            "name": "McDonald's Gourmet Burger Collection",
+                                            "cloudinaryImageId": "rjnddavwzzn0nxjtitre",
+                                            "locality": "SGS Mall",
+                                            "areaName": "Camp Area",
+                                            "costForTwo": "₹600 for two",
+                                            "cuisines": [
+                                                "Burgers",
+                                                "Beverages",
+                                                "Cafe",
+                                                "Desserts"
+                                            ],
+                                            "avgRating": 4.2,
+                                            "parentId": "10761",
+                                            "avgRatingString": "4.2",
+                                            "totalRatingsString": "100+",
+                                            "sla": {
+                                                "deliveryTime": 26,
+                                                "lastMileTravel": 2.2,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "25-30 mins",
+                                                "lastMileTravelString": "2.2 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2024-03-28 23:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {},
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "50% OFF",
+                                                "subHeader": "UPTO ₹100"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {}
+                                        },
+                                        "analytics": {},
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/restaurants/mcdonalds-gourmet-burger-collection-sgs-mall-camp-area-pune-395183",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "64956",
+                                            "name": "Mahesh Lunch Home",
+                                            "cloudinaryImageId": "ddfqodsiobcjrihkocyr",
+                                            "locality": "Ambedkar Road",
+                                            "areaName": "Camp Area",
+                                            "costForTwo": "₹900 for two",
+                                            "cuisines": [
+                                                "Indian"
+                                            ],
+                                            "avgRating": 4.4,
+                                            "parentId": "615",
+                                            "avgRatingString": "4.4",
+                                            "totalRatingsString": "1K+",
+                                            "sla": {
+                                                "deliveryTime": 28,
+                                                "lastMileTravel": 1.2,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "25-30 mins",
+                                                "lastMileTravelString": "1.2 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2024-03-28 15:30:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "newg.png",
+                                                        "description": "Gourmet"
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "aggregatedDiscountInfoV2": {},
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Gourmet",
+                                                                    "imageId": "newg.png"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {}
+                                        },
+                                        "analytics": {},
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/restaurants/mahesh-lunch-home-ambedkar-road-camp-area-pune-64956",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "52977",
+                                            "name": "Faasos - Wraps, Rolls & Shawarma",
+                                            "cloudinaryImageId": "af33b81798b11deba338e94b7585d348",
+                                            "locality": "Saifee Street",
+                                            "areaName": "Camp",
+                                            "costForTwo": "₹200 for two",
+                                            "cuisines": [
+                                                "Kebabs",
+                                                "Fast Food",
+                                                "Snacks",
+                                                "American",
+                                                "Healthy Food",
+                                                "Desserts",
+                                                "Beverages"
+                                            ],
+                                            "avgRating": 4.5,
+                                            "parentId": "21809",
+                                            "avgRatingString": "4.5",
+                                            "totalRatingsString": "5K+",
+                                            "sla": {
+                                                "deliveryTime": 31,
+                                                "lastMileTravel": 2.5,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "30-35 mins",
+                                                "lastMileTravelString": "2.5 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2024-03-28 23:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "Rxawards/_CATEGORY-Rolls.png",
+                                                        "description": "Delivery!"
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Delivery!",
+                                                                    "imageId": "Rxawards/_CATEGORY-Rolls.png"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "₹125 OFF",
+                                                "subHeader": "ABOVE ₹199",
+                                                "discountTag": "FLAT DEAL"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {}
+                                        },
+                                        "analytics": {},
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/restaurants/faasos-wraps-rolls-and-shawarma-saifee-street-camp-pune-52977",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "5625",
+                                            "name": "Subway",
+                                            "cloudinaryImageId": "63178e3e64d503a479f2a2048a474552",
+                                            "locality": "East Street",
+                                            "areaName": "Camp",
+                                            "costForTwo": "₹350 for two",
+                                            "cuisines": [
+                                                "Fast Food",
+                                                "Healthy Food",
+                                                "Salads",
+                                                "Snacks",
+                                                "Desserts",
+                                                "Beverages"
+                                            ],
+                                            "avgRating": 4.1,
+                                            "parentId": "2",
+                                            "avgRatingString": "4.1",
+                                            "totalRatingsString": "10K+",
+                                            "sla": {
+                                                "deliveryTime": 26,
+                                                "lastMileTravel": 2.4,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "25-30 mins",
+                                                "lastMileTravelString": "2.4 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2024-03-28 23:45:00",
+                                                "opened": true
+                                            },
+                                            "badges": {},
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "30% OFF",
+                                                "subHeader": "UPTO ₹75"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {}
+                                        },
+                                        "analytics": {},
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/restaurants/subway-east-street-camp-pune-5625",
                                             "type": "WEBLINK"
                                         }
                                     },
@@ -1900,7 +1977,7 @@
                                                 "iconType": "ICON_TYPE_EMPTY"
                                             },
                                             "availability": {
-                                                "nextCloseTime": "2024-03-28 01:50:00",
+                                                "nextCloseTime": "2024-03-29 01:50:00",
                                                 "opened": true
                                             },
                                             "badges": {
@@ -1966,15 +2043,15 @@
                                             "avgRatingString": "4.7",
                                             "totalRatingsString": "1K+",
                                             "sla": {
-                                                "deliveryTime": 29,
+                                                "deliveryTime": 17,
                                                 "lastMileTravel": 1.6,
                                                 "serviceability": "SERVICEABLE",
-                                                "slaString": "25-30 mins",
+                                                "slaString": "15-20 mins",
                                                 "lastMileTravelString": "1.6 km",
                                                 "iconType": "ICON_TYPE_EMPTY"
                                             },
                                             "availability": {
-                                                "nextCloseTime": "2024-03-27 23:59:00",
+                                                "nextCloseTime": "2024-03-28 23:59:00",
                                                 "opened": true
                                             },
                                             "badges": {
@@ -2004,9 +2081,8 @@
                                                 }
                                             },
                                             "aggregatedDiscountInfoV3": {
-                                                "header": "₹100 OFF",
-                                                "subHeader": "ABOVE ₹200",
-                                                "discountTag": "GET"
+                                                "header": "50% OFF",
+                                                "subHeader": "UPTO ₹100"
                                             },
                                             "differentiatedUi": {
                                                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -2047,15 +2123,15 @@
                                             "avgRatingString": "4.5",
                                             "totalRatingsString": "1K+",
                                             "sla": {
-                                                "deliveryTime": 26,
+                                                "deliveryTime": 24,
                                                 "lastMileTravel": 2.4,
                                                 "serviceability": "SERVICEABLE",
-                                                "slaString": "25-30 mins",
+                                                "slaString": "20-25 mins",
                                                 "lastMileTravelString": "2.4 km",
                                                 "iconType": "ICON_TYPE_EMPTY"
                                             },
                                             "availability": {
-                                                "nextCloseTime": "2024-03-27 23:00:00",
+                                                "nextCloseTime": "2024-03-28 23:00:00",
                                                 "opened": true
                                             },
                                             "badges": {
@@ -2085,9 +2161,8 @@
                                                 }
                                             },
                                             "aggregatedDiscountInfoV3": {
-                                                "header": "₹50 OFF",
-                                                "subHeader": "ABOVE ₹250",
-                                                "discountTag": "GET"
+                                                "header": "20% OFF",
+                                                "subHeader": "UPTO ₹50"
                                             },
                                             "differentiatedUi": {
                                                 "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -2109,123 +2184,36 @@
                                     },
                                     {
                                         "info": {
-                                            "id": "155434",
-                                            "name": "The Good Bowl",
-                                            "cloudinaryImageId": "6e04be27387483a7c00444f8e8241108",
-                                            "locality": "Shanivarpeth",
-                                            "areaName": "Shaniwar Peth",
+                                            "id": "139929",
+                                            "name": "Theobroma",
+                                            "cloudinaryImageId": "63dd75492c47fcec191132b8eb299ea5",
+                                            "locality": "Meera Nagar",
+                                            "areaName": "Koregaon Park",
                                             "costForTwo": "₹400 for two",
                                             "cuisines": [
-                                                "Biryani",
-                                                "Pastas",
-                                                "Punjabi",
-                                                "Desserts",
-                                                "Beverages"
-                                            ],
-                                            "avgRating": 4.3,
-                                            "parentId": "7918",
-                                            "avgRatingString": "4.3",
-                                            "totalRatingsString": "1K+",
-                                            "sla": {
-                                                "deliveryTime": 36,
-                                                "lastMileTravel": 2.8,
-                                                "serviceability": "SERVICEABLE",
-                                                "slaString": "35-40 mins",
-                                                "lastMileTravelString": "2.8 km",
-                                                "iconType": "ICON_TYPE_EMPTY"
-                                            },
-                                            "availability": {
-                                                "nextCloseTime": "2024-03-27 23:59:00",
-                                                "opened": true
-                                            },
-                                            "badges": {
-                                                "textExtendedBadges": [
-                                                    {
-                                                        "iconId": "guiltfree/GF_Logo_android_3x",
-                                                        "shortDescription": "options available",
-                                                        "fontColor": "#7E808C"
-                                                    }
-                                                ]
-                                            },
-                                            "isOpen": true,
-                                            "type": "F",
-                                            "badgesV2": {
-                                                "entityBadges": {
-                                                    "imageBased": {},
-                                                    "textBased": {},
-                                                    "textExtendedBadges": {
-                                                        "badgeObject": [
-                                                            {
-                                                                "attributes": {
-                                                                    "description": "",
-                                                                    "fontColor": "#7E808C",
-                                                                    "iconId": "guiltfree/GF_Logo_android_3x",
-                                                                    "shortDescription": "options available"
-                                                                }
-                                                            }
-                                                        ]
-                                                    }
-                                                }
-                                            },
-                                            "aggregatedDiscountInfoV3": {
-                                                "header": "₹110 OFF",
-                                                "subHeader": "ABOVE ₹185",
-                                                "discountTag": "GET"
-                                            },
-                                            "differentiatedUi": {
-                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                                                "differentiatedUiMediaDetails": {
-                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                                                    "lottie": {},
-                                                    "video": {}
-                                                }
-                                            },
-                                            "reviewsSummary": {},
-                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                                            "restaurantOfferPresentationInfo": {}
-                                        },
-                                        "analytics": {},
-                                        "cta": {
-                                            "link": "https://www.swiggy.com/restaurants/the-good-bowl-shanivarpeth-shaniwar-peth-pune-155434",
-                                            "type": "WEBLINK"
-                                        }
-                                    },
-                                    {
-                                        "info": {
-                                            "id": "52978",
-                                            "name": "Behrouz Biryani",
-                                            "cloudinaryImageId": "1a8dfa8b2a73ddf7c6193465ab24c898",
-                                            "locality": "Saifee Street",
-                                            "areaName": "Camp",
-                                            "costForTwo": "₹500 for two",
-                                            "cuisines": [
-                                                "Biryani",
-                                                "North Indian",
-                                                "Kebabs",
-                                                "Mughlai",
-                                                "Beverages",
+                                                "Bakery",
                                                 "Desserts"
                                             ],
-                                            "avgRating": 4.6,
-                                            "parentId": "1803",
-                                            "avgRatingString": "4.6",
-                                            "totalRatingsString": "1K+",
+                                            "avgRating": 4.7,
+                                            "parentId": "1040",
+                                            "avgRatingString": "4.7",
+                                            "totalRatingsString": "5K+",
                                             "sla": {
-                                                "deliveryTime": 37,
-                                                "lastMileTravel": 2.6,
+                                                "deliveryTime": 24,
+                                                "lastMileTravel": 3.7,
                                                 "serviceability": "SERVICEABLE",
-                                                "slaString": "35-40 mins",
-                                                "lastMileTravelString": "2.6 km",
+                                                "slaString": "20-25 mins",
+                                                "lastMileTravelString": "3.7 km",
                                                 "iconType": "ICON_TYPE_EMPTY"
                                             },
                                             "availability": {
-                                                "nextCloseTime": "2024-03-27 23:00:00",
+                                                "nextCloseTime": "2024-03-28 23:59:00",
                                                 "opened": true
                                             },
                                             "badges": {
                                                 "imageBadges": [
                                                     {
-                                                        "imageId": "Rxawards/_CATEGORY-Biryani.png",
+                                                        "imageId": "Rxawards/_CATEGORY-Desserts.png",
                                                         "description": "Delivery!"
                                                     },
                                                     {
@@ -2243,7 +2231,7 @@
                                                             {
                                                                 "attributes": {
                                                                     "description": "Delivery!",
-                                                                    "imageId": "Rxawards/_CATEGORY-Biryani.png"
+                                                                    "imageId": "Rxawards/_CATEGORY-Desserts.png"
                                                                 }
                                                             },
                                                             {
@@ -2259,8 +2247,7 @@
                                                 }
                                             },
                                             "aggregatedDiscountInfoV3": {
-                                                "header": "₹125 OFF",
-                                                "subHeader": "ABOVE ₹199",
+                                                "header": "20% OFF",
                                                 "discountTag": "FLAT DEAL"
                                             },
                                             "differentiatedUi": {
@@ -2277,95 +2264,7 @@
                                         },
                                         "analytics": {},
                                         "cta": {
-                                            "link": "https://www.swiggy.com/restaurants/behrouz-biryani-saifee-street-camp-pune-52978",
-                                            "type": "WEBLINK"
-                                        }
-                                    },
-                                    {
-                                        "info": {
-                                            "id": "60832",
-                                            "name": "Irani Cafe",
-                                            "cloudinaryImageId": "lrgeojzdbhhwe2cqjz2n",
-                                            "locality": "North Avenue Road",
-                                            "areaName": "Kalyani Nagar",
-                                            "costForTwo": "₹200 for two",
-                                            "cuisines": [
-                                                "Bakery",
-                                                "Snacks",
-                                                "Fast Food",
-                                                "Desserts",
-                                                "Beverages",
-                                                "Street Food",
-                                                "Indian"
-                                            ],
-                                            "avgRating": 4.6,
-                                            "parentId": "4057",
-                                            "avgRatingString": "4.6",
-                                            "totalRatingsString": "10K+",
-                                            "sla": {
-                                                "deliveryTime": 35,
-                                                "lastMileTravel": 5,
-                                                "serviceability": "SERVICEABLE",
-                                                "slaString": "35-40 mins",
-                                                "lastMileTravelString": "5.0 km",
-                                                "iconType": "ICON_TYPE_EMPTY"
-                                            },
-                                            "availability": {
-                                                "nextCloseTime": "2024-03-27 23:59:00",
-                                                "opened": true
-                                            },
-                                            "badges": {
-                                                "imageBadges": [
-                                                    {
-                                                        "imageId": "Rxawards/_CATEGORY-Cafe%20&%20Chai.png",
-                                                        "description": "Delivery!"
-                                                    },
-                                                    {
-                                                        "imageId": "Rxawards/_CATEGORY-Snacks.png",
-                                                        "description": "Delivery!"
-                                                    }
-                                                ]
-                                            },
-                                            "isOpen": true,
-                                            "aggregatedDiscountInfoV2": {},
-                                            "type": "F",
-                                            "badgesV2": {
-                                                "entityBadges": {
-                                                    "imageBased": {
-                                                        "badgeObject": [
-                                                            {
-                                                                "attributes": {
-                                                                    "description": "Delivery!",
-                                                                    "imageId": "Rxawards/_CATEGORY-Cafe%20&%20Chai.png"
-                                                                }
-                                                            },
-                                                            {
-                                                                "attributes": {
-                                                                    "description": "Delivery!",
-                                                                    "imageId": "Rxawards/_CATEGORY-Snacks.png"
-                                                                }
-                                                            }
-                                                        ]
-                                                    },
-                                                    "textBased": {},
-                                                    "textExtendedBadges": {}
-                                                }
-                                            },
-                                            "differentiatedUi": {
-                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                                                "differentiatedUiMediaDetails": {
-                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                                                    "lottie": {},
-                                                    "video": {}
-                                                }
-                                            },
-                                            "reviewsSummary": {},
-                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                                            "restaurantOfferPresentationInfo": {}
-                                        },
-                                        "analytics": {},
-                                        "cta": {
-                                            "link": "https://www.swiggy.com/restaurants/irani-cafe-north-avenue-road-kalyani-nagar-pune-60832",
+                                            "link": "https://www.swiggy.com/restaurants/theobroma-meera-nagar-koregaon-park-pune-139929",
                                             "type": "WEBLINK"
                                         }
                                     }
@@ -2428,7 +2327,7 @@
                                 "title": "Cost: High to Low"
                             }
                         ],
-                        "restaurantCount": 1881,
+                        "restaurantCount": 1807,
                         "facetList": [
                             {
                                 "label": "Delivery Time",
@@ -2541,12 +2440,6 @@
                                         "openFilter": true
                                     },
                                     {
-                                        "label": "Burmese",
-                                        "id": "query_burmese",
-                                        "analytics": {},
-                                        "openFilter": true
-                                    },
-                                    {
                                         "label": "Cafe",
                                         "id": "query_cafe",
                                         "analytics": {},
@@ -2573,12 +2466,6 @@
                                     {
                                         "label": "Coastal",
                                         "id": "query_coastal",
-                                        "analytics": {},
-                                        "openFilter": true
-                                    },
-                                    {
-                                        "label": "Code Valid On Bill Over Rs.300!",
-                                        "id": "query_code_valid_on_bill_over_rs.300!",
                                         "analytics": {},
                                         "openFilter": true
                                     },
@@ -2615,6 +2502,12 @@
                                     {
                                         "label": "Fast Food",
                                         "id": "query_fast_food",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    },
+                                    {
+                                        "label": "French",
+                                        "id": "query_french",
                                         "analytics": {},
                                         "openFilter": true
                                     },
@@ -2787,6 +2680,12 @@
                                         "openFilter": true
                                     },
                                     {
+                                        "label": "Meat",
+                                        "id": "query_meat",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    },
+                                    {
                                         "label": "Mediterranean",
                                         "id": "query_mediterranean",
                                         "analytics": {},
@@ -2843,6 +2742,12 @@
                                     {
                                         "label": "Oriental",
                                         "id": "query_oriental",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    },
+                                    {
+                                        "label": "Oriya",
+                                        "id": "query_oriya",
                                         "analytics": {},
                                         "openFilter": true
                                     },
@@ -2945,12 +2850,6 @@
                                     {
                                         "label": "Spanish",
                                         "id": "query_spanish",
-                                        "analytics": {},
-                                        "openFilter": true
-                                    },
-                                    {
-                                        "label": "Special Discount from (Hotel Swagath)",
-                                        "id": "query_special_discount_from_(hotel_swagath)",
                                         "analytics": {},
                                         "openFilter": true
                                     },
@@ -3150,65 +3049,47 @@
                                 "restaurants": [
                                     {
                                         "info": {
-                                            "id": "33722",
-                                            "name": "KFC",
-                                            "cloudinaryImageId": "f01666ac73626461d7455d9c24005cd4",
-                                            "locality": "SGS Mall",
-                                            "areaName": "Camp Area",
-                                            "costForTwo": "₹400 for two",
+                                            "id": "323532",
+                                            "name": "Chinese Wok",
+                                            "cloudinaryImageId": "e0839ff574213e6f35b3899ebf1fc597",
+                                            "locality": "Bibwewadi",
+                                            "areaName": "Koregaon Park",
+                                            "costForTwo": "₹300 for two",
                                             "cuisines": [
-                                                "Burgers",
-                                                "Biryani",
-                                                "American",
-                                                "Snacks",
-                                                "Fast Food"
+                                                "Chinese",
+                                                "Asian",
+                                                "Tibetan",
+                                                "Desserts"
                                             ],
                                             "avgRating": 4.1,
-                                            "parentId": "547",
+                                            "parentId": "61955",
                                             "avgRatingString": "4.1",
-                                            "totalRatingsString": "5K+",
+                                            "totalRatingsString": "1K+",
                                             "sla": {
-                                                "deliveryTime": 36,
-                                                "lastMileTravel": 2.3,
+                                                "deliveryTime": 39,
+                                                "lastMileTravel": 3.9,
                                                 "serviceability": "SERVICEABLE",
                                                 "slaString": "35-40 mins",
-                                                "lastMileTravelString": "2.3 km",
+                                                "lastMileTravelString": "3.9 km",
                                                 "iconType": "ICON_TYPE_EMPTY"
                                             },
                                             "availability": {
-                                                "nextCloseTime": "2024-03-27 22:00:00",
+                                                "nextCloseTime": "2024-03-28 23:00:00",
                                                 "opened": true
                                             },
-                                            "badges": {
-                                                "imageBadges": [
-                                                    {
-                                                        "imageId": "Rxawards/_CATEGORY-Burger.png",
-                                                        "description": "Delivery!"
-                                                    }
-                                                ]
-                                            },
+                                            "badges": {},
                                             "isOpen": true,
                                             "type": "F",
                                             "badgesV2": {
                                                 "entityBadges": {
-                                                    "imageBased": {
-                                                        "badgeObject": [
-                                                            {
-                                                                "attributes": {
-                                                                    "description": "Delivery!",
-                                                                    "imageId": "Rxawards/_CATEGORY-Burger.png"
-                                                                }
-                                                            }
-                                                        ]
-                                                    },
+                                                    "imageBased": {},
                                                     "textBased": {},
                                                     "textExtendedBadges": {}
                                                 }
                                             },
                                             "aggregatedDiscountInfoV3": {
-                                                "header": "₹50 OFF",
-                                                "subHeader": "ABOVE ₹250",
-                                                "discountTag": "GET"
+                                                "header": "ITEMS",
+                                                "subHeader": "AT ₹179"
                                             },
                                             "orderabilityCommunication": {
                                                 "title": {},
@@ -3229,10 +3110,259 @@
                                             "restaurantOfferPresentationInfo": {}
                                         },
                                         "analytics": {
-                                            "context": "seo-data-1113d51f-92cb-4988-ba24-1a26b5eec955"
+                                            "context": "seo-data-0ddb928d-58e1-48a9-901d-e9cfbf1b54b4"
                                         },
                                         "cta": {
-                                            "link": "https://www.swiggy.com/restaurants/kfc-sgs-mall-camp-area-pune-33722",
+                                            "link": "https://www.swiggy.com/restaurants/chinese-wok-bibwewadi-koregaon-park-pune-323532",
+                                            "text": "RESTAURANT_MENU",
+                                            "type": "WEBLINK"
+                                        },
+                                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "10287",
+                                            "name": "Pizza Hut",
+                                            "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
+                                            "locality": "Camp",
+                                            "areaName": "Camp",
+                                            "costForTwo": "₹350 for two",
+                                            "cuisines": [
+                                                "Pizzas"
+                                            ],
+                                            "avgRating": 4.2,
+                                            "parentId": "721",
+                                            "avgRatingString": "4.2",
+                                            "totalRatingsString": "5K+",
+                                            "sla": {
+                                                "deliveryTime": 31,
+                                                "lastMileTravel": 2.2,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "30-35 mins",
+                                                "lastMileTravelString": "2.2 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2024-03-29 00:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "Rxawards/_CATEGORY-Pizza.png",
+                                                        "description": "Delivery!"
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Delivery!",
+                                                                    "imageId": "Rxawards/_CATEGORY-Pizza.png"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "30% OFF",
+                                                "subHeader": "UPTO ₹75"
+                                            },
+                                            "orderabilityCommunication": {
+                                                "title": {},
+                                                "subTitle": {},
+                                                "message": {},
+                                                "customIcon": {}
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {}
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-0ddb928d-58e1-48a9-901d-e9cfbf1b54b4"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/restaurants/pizza-hut-camp-pune-10287",
+                                            "text": "RESTAURANT_MENU",
+                                            "type": "WEBLINK"
+                                        },
+                                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "105252",
+                                            "name": "UBQ by Barbeque Nation",
+                                            "cloudinaryImageId": "ogne1kzrf0fhhzth5kp7",
+                                            "locality": "R Deccan Mall",
+                                            "areaName": "JM Road",
+                                            "costForTwo": "₹300 for two",
+                                            "cuisines": [
+                                                "North Indian",
+                                                "Barbecue",
+                                                "Biryani",
+                                                "Kebabs",
+                                                "Mughlai",
+                                                "Desserts"
+                                            ],
+                                            "avgRating": 4,
+                                            "parentId": "10804",
+                                            "avgRatingString": "4.0",
+                                            "totalRatingsString": "1K+",
+                                            "sla": {
+                                                "deliveryTime": 51,
+                                                "lastMileTravel": 4.2,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "50-55 mins",
+                                                "lastMileTravelString": "4.2 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2024-03-28 23:30:00",
+                                                "opened": true
+                                            },
+                                            "badges": {},
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "50% OFF",
+                                                "subHeader": "UPTO ₹100"
+                                            },
+                                            "orderabilityCommunication": {
+                                                "title": {},
+                                                "subTitle": {},
+                                                "message": {},
+                                                "customIcon": {}
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {}
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-0ddb928d-58e1-48a9-901d-e9cfbf1b54b4"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/restaurants/ubq-by-barbeque-nation-r-deccan-mall-jm-road-pune-105252",
+                                            "text": "RESTAURANT_MENU",
+                                            "type": "WEBLINK"
+                                        },
+                                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "692169",
+                                            "name": "BOOM Sandwich - Sub of India",
+                                            "cloudinaryImageId": "96aaf72372ad1b0297b7cc304ced7e33",
+                                            "locality": "Dhole Patil Road",
+                                            "areaName": "Bund Garden Road",
+                                            "costForTwo": "₹250 for two",
+                                            "cuisines": [
+                                                "Snacks",
+                                                "Indian",
+                                                "Desserts"
+                                            ],
+                                            "avgRating": 4.4,
+                                            "parentId": "401169",
+                                            "avgRatingString": "4.4",
+                                            "totalRatingsString": "50+",
+                                            "sla": {
+                                                "deliveryTime": 21,
+                                                "lastMileTravel": 1.9,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "16-26 mins",
+                                                "lastMileTravelString": "1.9 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2024-03-29 02:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "textExtendedBadges": [
+                                                    {
+                                                        "iconId": "guiltfree/GF_Logo_android_3x",
+                                                        "shortDescription": "options available",
+                                                        "fontColor": "#7E808C"
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "",
+                                                                    "fontColor": "#7E808C",
+                                                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                                                    "shortDescription": "options available"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "ITEMS",
+                                                "subHeader": "AT ₹129"
+                                            },
+                                            "orderabilityCommunication": {
+                                                "title": {},
+                                                "subTitle": {},
+                                                "message": {},
+                                                "customIcon": {}
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {}
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-0ddb928d-58e1-48a9-901d-e9cfbf1b54b4"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/restaurants/boom-sandwich-sub-of-india-dhole-patil-road-bund-garden-road-pune-692169",
                                             "text": "RESTAURANT_MENU",
                                             "type": "WEBLINK"
                                         },
@@ -3257,15 +3387,101 @@
                                             "avgRatingString": "4.5",
                                             "totalRatingsString": "10K+",
                                             "sla": {
-                                                "deliveryTime": 32,
+                                                "deliveryTime": 23,
                                                 "lastMileTravel": 2.2,
                                                 "serviceability": "SERVICEABLE",
-                                                "slaString": "30-35 mins",
+                                                "slaString": "20-25 mins",
                                                 "lastMileTravelString": "2.2 km",
                                                 "iconType": "ICON_TYPE_EMPTY"
                                             },
                                             "availability": {
-                                                "nextCloseTime": "2024-03-27 23:00:00",
+                                                "nextCloseTime": "2024-03-28 23:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "Rxawards/_CATEGORY-Burger.png",
+                                                        "description": "Delivery!"
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "aggregatedDiscountInfoV2": {},
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Delivery!",
+                                                                    "imageId": "Rxawards/_CATEGORY-Burger.png"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "orderabilityCommunication": {
+                                                "title": {},
+                                                "subTitle": {},
+                                                "message": {},
+                                                "customIcon": {}
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {}
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-0ddb928d-58e1-48a9-901d-e9cfbf1b54b4"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/restaurants/mcdonalds-sgs-mall-camp-area-pune-23725",
+                                            "text": "RESTAURANT_MENU",
+                                            "type": "WEBLINK"
+                                        },
+                                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "33722",
+                                            "name": "KFC",
+                                            "cloudinaryImageId": "f01666ac73626461d7455d9c24005cd4",
+                                            "locality": "SGS Mall",
+                                            "areaName": "Camp Area",
+                                            "costForTwo": "₹400 for two",
+                                            "cuisines": [
+                                                "Burgers",
+                                                "Biryani",
+                                                "American",
+                                                "Snacks",
+                                                "Fast Food"
+                                            ],
+                                            "avgRating": 4.1,
+                                            "parentId": "547",
+                                            "avgRatingString": "4.1",
+                                            "totalRatingsString": "5K+",
+                                            "sla": {
+                                                "deliveryTime": 25,
+                                                "lastMileTravel": 2.3,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "25-30 mins",
+                                                "lastMileTravelString": "2.3 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2024-03-28 22:00:00",
                                                 "opened": true
                                             },
                                             "badges": {
@@ -3296,7 +3512,7 @@
                                             },
                                             "aggregatedDiscountInfoV3": {
                                                 "header": "ITEMS",
-                                                "subHeader": "AT ₹199"
+                                                "subHeader": "AT ₹179"
                                             },
                                             "orderabilityCommunication": {
                                                 "title": {},
@@ -3317,10 +3533,10 @@
                                             "restaurantOfferPresentationInfo": {}
                                         },
                                         "analytics": {
-                                            "context": "seo-data-1113d51f-92cb-4988-ba24-1a26b5eec955"
+                                            "context": "seo-data-0ddb928d-58e1-48a9-901d-e9cfbf1b54b4"
                                         },
                                         "cta": {
-                                            "link": "https://www.swiggy.com/restaurants/mcdonalds-sgs-mall-camp-area-pune-23725",
+                                            "link": "https://www.swiggy.com/restaurants/kfc-sgs-mall-camp-area-pune-33722",
                                             "text": "RESTAURANT_MENU",
                                             "type": "WEBLINK"
                                         },
@@ -3343,15 +3559,15 @@
                                             "avgRatingString": "4.3",
                                             "totalRatingsString": "5K+",
                                             "sla": {
-                                                "deliveryTime": 28,
+                                                "deliveryTime": 20,
                                                 "lastMileTravel": 1.5,
                                                 "serviceability": "SERVICEABLE",
-                                                "slaString": "25-30 mins",
+                                                "slaString": "20-25 mins",
                                                 "lastMileTravelString": "1.5 km",
                                                 "iconType": "ICON_TYPE_EMPTY"
                                             },
                                             "availability": {
-                                                "nextCloseTime": "2024-03-28 01:00:00",
+                                                "nextCloseTime": "2024-03-29 01:00:00",
                                                 "opened": true
                                             },
                                             "badges": {
@@ -3381,9 +3597,9 @@
                                                 }
                                             },
                                             "aggregatedDiscountInfoV3": {
-                                                "header": "₹35 OFF",
-                                                "subHeader": "ABOVE ₹350",
-                                                "discountTag": "GET",
+                                                "header": "10% OFF",
+                                                "subHeader": "UPTO ₹35",
+                                                "discountTag": "POCKET HERO",
                                                 "discountCalloutInfo": {
                                                     "message": "Free Delivery",
                                                     "logoCtx": {
@@ -3410,7 +3626,7 @@
                                             "restaurantOfferPresentationInfo": {}
                                         },
                                         "analytics": {
-                                            "context": "seo-data-1113d51f-92cb-4988-ba24-1a26b5eec955"
+                                            "context": "seo-data-0ddb928d-58e1-48a9-901d-e9cfbf1b54b4"
                                         },
                                         "cta": {
                                             "link": "https://www.swiggy.com/restaurants/rajendra-paav-bhaji-rasta-peth-camp-pune-22469",
@@ -3421,191 +3637,65 @@
                                     },
                                     {
                                         "info": {
-                                            "id": "5408",
-                                            "name": "George Restaurant",
-                                            "cloudinaryImageId": "lfj503lheewnas4hie8a",
-                                            "locality": "Camp",
-                                            "areaName": "Camp",
-                                            "costForTwo": "₹750 for two",
-                                            "cuisines": [
-                                                "Chinese",
-                                                "Biryani",
-                                                "Mughlai",
-                                                "Parsi"
-                                            ],
-                                            "avgRating": 4.3,
-                                            "parentId": "86990",
-                                            "avgRatingString": "4.3",
-                                            "totalRatingsString": "10K+",
-                                            "sla": {
-                                                "deliveryTime": 30,
-                                                "lastMileTravel": 1.8,
-                                                "serviceability": "SERVICEABLE",
-                                                "slaString": "25-30 mins",
-                                                "lastMileTravelString": "1.8 km",
-                                                "iconType": "ICON_TYPE_EMPTY"
-                                            },
-                                            "availability": {
-                                                "nextCloseTime": "2024-03-27 23:15:00",
-                                                "opened": true
-                                            },
-                                            "badges": {},
-                                            "isOpen": true,
-                                            "type": "F",
-                                            "badgesV2": {
-                                                "entityBadges": {
-                                                    "imageBased": {},
-                                                    "textBased": {},
-                                                    "textExtendedBadges": {}
-                                                }
-                                            },
-                                            "aggregatedDiscountInfoV3": {
-                                                "header": "₹40 OFF",
-                                                "subHeader": "ABOVE ₹400",
-                                                "discountTag": "GET"
-                                            },
-                                            "orderabilityCommunication": {
-                                                "title": {},
-                                                "subTitle": {},
-                                                "message": {},
-                                                "customIcon": {}
-                                            },
-                                            "differentiatedUi": {
-                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                                                "differentiatedUiMediaDetails": {
-                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                                                    "lottie": {},
-                                                    "video": {}
-                                                }
-                                            },
-                                            "reviewsSummary": {},
-                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                                            "restaurantOfferPresentationInfo": {}
-                                        },
-                                        "analytics": {
-                                            "context": "seo-data-1113d51f-92cb-4988-ba24-1a26b5eec955"
-                                        },
-                                        "cta": {
-                                            "link": "https://www.swiggy.com/restaurants/george-restaurant-camp-pune-5408",
-                                            "text": "RESTAURANT_MENU",
-                                            "type": "WEBLINK"
-                                        },
-                                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-                                    },
-                                    {
-                                        "info": {
-                                            "id": "17024",
-                                            "name": "Shahi Dawat (Gulzar-E-Mohammadi)",
-                                            "cloudinaryImageId": "bjputfyr0fnmvk8ntypp",
-                                            "locality": "Camp",
-                                            "areaName": "Camp",
-                                            "costForTwo": "₹400 for two",
-                                            "cuisines": [
-                                                "Mughlai",
-                                                "North Indian",
-                                                "Chinese",
-                                                "Arabian",
-                                                "Desserts"
-                                            ],
-                                            "avgRating": 4.5,
-                                            "parentId": "453341",
-                                            "avgRatingString": "4.5",
-                                            "totalRatingsString": "10K+",
-                                            "sla": {
-                                                "deliveryTime": 34,
-                                                "lastMileTravel": 2.4,
-                                                "serviceability": "SERVICEABLE",
-                                                "slaString": "30-35 mins",
-                                                "lastMileTravelString": "2.4 km",
-                                                "iconType": "ICON_TYPE_EMPTY"
-                                            },
-                                            "availability": {
-                                                "nextCloseTime": "2024-03-27 23:15:00",
-                                                "opened": true
-                                            },
-                                            "badges": {},
-                                            "isOpen": true,
-                                            "type": "F",
-                                            "badgesV2": {
-                                                "entityBadges": {
-                                                    "imageBased": {},
-                                                    "textBased": {},
-                                                    "textExtendedBadges": {}
-                                                }
-                                            },
-                                            "aggregatedDiscountInfoV3": {
-                                                "header": "₹50 OFF",
-                                                "subHeader": "ABOVE ₹250",
-                                                "discountTag": "GET"
-                                            },
-                                            "orderabilityCommunication": {
-                                                "title": {},
-                                                "subTitle": {},
-                                                "message": {},
-                                                "customIcon": {}
-                                            },
-                                            "differentiatedUi": {
-                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                                                "differentiatedUiMediaDetails": {
-                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                                                    "lottie": {},
-                                                    "video": {}
-                                                }
-                                            },
-                                            "reviewsSummary": {},
-                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                                            "restaurantOfferPresentationInfo": {}
-                                        },
-                                        "analytics": {
-                                            "context": "seo-data-1113d51f-92cb-4988-ba24-1a26b5eec955"
-                                        },
-                                        "cta": {
-                                            "link": "https://www.swiggy.com/restaurants/shahi-dawat-gulzar-e-mohammadi-camp-pune-17024",
-                                            "text": "RESTAURANT_MENU",
-                                            "type": "WEBLINK"
-                                        },
-                                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-                                    },
-                                    {
-                                        "info": {
-                                            "id": "146646",
-                                            "name": "Navyug Restaurant",
-                                            "cloudinaryImageId": "2b9174d2b97f18ae9615f0b51a2f452e",
+                                            "id": "402927",
+                                            "name": "NH1 Bowls - Highway To North",
+                                            "cloudinaryImageId": "94654fdf308764cd0faf83dba35bcdc3",
                                             "locality": "Sangamvadi",
                                             "areaName": "Dhole Patil Road",
-                                            "costForTwo": "₹150 for two",
+                                            "costForTwo": "₹250 for two",
                                             "cuisines": [
                                                 "North Indian",
-                                                "Chinese",
-                                                "Tandoor",
-                                                "Biryani"
+                                                "Punjabi",
+                                                "Home Food"
                                             ],
-                                            "avgRating": 4.3,
-                                            "parentId": "144930",
-                                            "avgRatingString": "4.3",
+                                            "avgRating": 4.6,
+                                            "parentId": "22452",
+                                            "avgRatingString": "4.6",
                                             "totalRatingsString": "500+",
                                             "sla": {
-                                                "deliveryTime": 27,
+                                                "deliveryTime": 21,
                                                 "lastMileTravel": 1.9,
                                                 "serviceability": "SERVICEABLE",
-                                                "slaString": "25-30 mins",
+                                                "slaString": "16-26 mins",
                                                 "lastMileTravelString": "1.9 km",
                                                 "iconType": "ICON_TYPE_EMPTY"
                                             },
                                             "availability": {
-                                                "nextCloseTime": "2024-03-27 23:00:00",
+                                                "nextCloseTime": "2024-03-29 02:00:00",
                                                 "opened": true
                                             },
-                                            "badges": {},
+                                            "badges": {
+                                                "textExtendedBadges": [
+                                                    {
+                                                        "iconId": "guiltfree/GF_Logo_android_3x",
+                                                        "shortDescription": "options available",
+                                                        "fontColor": "#7E808C"
+                                                    }
+                                                ]
+                                            },
                                             "isOpen": true,
-                                            "aggregatedDiscountInfoV2": {},
                                             "type": "F",
                                             "badgesV2": {
                                                 "entityBadges": {
                                                     "imageBased": {},
                                                     "textBased": {},
-                                                    "textExtendedBadges": {}
+                                                    "textExtendedBadges": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "",
+                                                                    "fontColor": "#7E808C",
+                                                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                                                    "shortDescription": "options available"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
                                                 }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "ITEMS",
+                                                "subHeader": "AT ₹159"
                                             },
                                             "orderabilityCommunication": {
                                                 "title": {},
@@ -3626,10 +3716,10 @@
                                             "restaurantOfferPresentationInfo": {}
                                         },
                                         "analytics": {
-                                            "context": "seo-data-1113d51f-92cb-4988-ba24-1a26b5eec955"
+                                            "context": "seo-data-0ddb928d-58e1-48a9-901d-e9cfbf1b54b4"
                                         },
                                         "cta": {
-                                            "link": "https://www.swiggy.com/restaurants/navyug-restaurant-sangamvadi-dhole-patil-road-pune-146646",
+                                            "link": "https://www.swiggy.com/restaurants/nh1-bowls-highway-to-north-sangamvadi-dhole-patil-road-pune-402927",
                                             "text": "RESTAURANT_MENU",
                                             "type": "WEBLINK"
                                         },
@@ -3637,115 +3727,62 @@
                                     },
                                     {
                                         "info": {
-                                            "id": "7855",
-                                            "name": "Supriya Restaurant",
-                                            "cloudinaryImageId": "ltjsyvudeyfnzmxttpxf",
+                                            "id": "72073",
+                                            "name": "Mayur Veg Thali",
+                                            "cloudinaryImageId": "ea9a92b6d0791a4180aad138cdc2338c",
                                             "locality": "Camp",
-                                            "areaName": "Camp Area",
+                                            "areaName": "Camp",
                                             "costForTwo": "₹300 for two",
                                             "cuisines": [
-                                                "North Indian",
-                                                "Chinese",
-                                                "South Indian",
-                                                "Fast Food",
-                                                "Beverages",
-                                                "Snacks"
+                                                "Rajasthani",
+                                                "Thalis",
+                                                "Punjabi"
                                             ],
-                                            "avgRating": 4.6,
-                                            "parentId": "197633",
-                                            "avgRatingString": "4.6",
-                                            "totalRatingsString": "10K+",
+                                            "avgRating": 4.4,
+                                            "parentId": "134011",
+                                            "avgRatingString": "4.4",
+                                            "totalRatingsString": "5K+",
                                             "sla": {
-                                                "deliveryTime": 29,
-                                                "lastMileTravel": 1.4,
-                                                "serviceability": "SERVICEABLE",
-                                                "slaString": "25-30 mins",
-                                                "lastMileTravelString": "1.4 km",
-                                                "iconType": "ICON_TYPE_EMPTY"
-                                            },
-                                            "availability": {
-                                                "nextCloseTime": "2024-03-27 23:00:00",
-                                                "opened": true
-                                            },
-                                            "badges": {},
-                                            "isOpen": true,
-                                            "aggregatedDiscountInfoV2": {},
-                                            "type": "F",
-                                            "badgesV2": {
-                                                "entityBadges": {
-                                                    "imageBased": {},
-                                                    "textBased": {},
-                                                    "textExtendedBadges": {}
-                                                }
-                                            },
-                                            "orderabilityCommunication": {
-                                                "title": {},
-                                                "subTitle": {},
-                                                "message": {},
-                                                "customIcon": {}
-                                            },
-                                            "differentiatedUi": {
-                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                                                "differentiatedUiMediaDetails": {
-                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                                                    "lottie": {},
-                                                    "video": {}
-                                                }
-                                            },
-                                            "reviewsSummary": {},
-                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                                            "restaurantOfferPresentationInfo": {}
-                                        },
-                                        "analytics": {
-                                            "context": "seo-data-1113d51f-92cb-4988-ba24-1a26b5eec955"
-                                        },
-                                        "cta": {
-                                            "link": "https://www.swiggy.com/restaurants/supriya-restaurant-camp-camp-area-pune-7855",
-                                            "text": "RESTAURANT_MENU",
-                                            "type": "WEBLINK"
-                                        },
-                                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-                                    },
-                                    {
-                                        "info": {
-                                            "id": "265027",
-                                            "name": "Shahji's Parantha House",
-                                            "cloudinaryImageId": "qj2ajbetjt6d06jucn2m",
-                                            "locality": "MG Road",
-                                            "areaName": "MG Road",
-                                            "costForTwo": "₹300 for two",
-                                            "cuisines": [
-                                                "North Indian",
-                                                "Punjabi",
-                                                "Indian"
-                                            ],
-                                            "avgRating": 4.6,
-                                            "veg": true,
-                                            "parentId": "180886",
-                                            "avgRatingString": "4.6",
-                                            "totalRatingsString": "1K+",
-                                            "sla": {
-                                                "deliveryTime": 35,
+                                                "deliveryTime": 24,
                                                 "lastMileTravel": 2.3,
                                                 "serviceability": "SERVICEABLE",
-                                                "slaString": "35-40 mins",
+                                                "slaString": "20-25 mins",
                                                 "lastMileTravelString": "2.3 km",
                                                 "iconType": "ICON_TYPE_EMPTY"
                                             },
                                             "availability": {
-                                                "nextCloseTime": "2024-03-27 23:00:00",
+                                                "nextCloseTime": "2024-03-28 22:15:00",
                                                 "opened": true
                                             },
-                                            "badges": {},
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                                        "description": "pureveg"
+                                                    }
+                                                ]
+                                            },
                                             "isOpen": true,
-                                            "aggregatedDiscountInfoV2": {},
                                             "type": "F",
                                             "badgesV2": {
                                                 "entityBadges": {
-                                                    "imageBased": {},
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "pureveg",
+                                                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
                                                     "textBased": {},
                                                     "textExtendedBadges": {}
                                                 }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "30% OFF",
+                                                "subHeader": "UPTO ₹75"
                                             },
                                             "orderabilityCommunication": {
                                                 "title": {},
@@ -3766,82 +3803,10 @@
                                             "restaurantOfferPresentationInfo": {}
                                         },
                                         "analytics": {
-                                            "context": "seo-data-1113d51f-92cb-4988-ba24-1a26b5eec955"
+                                            "context": "seo-data-0ddb928d-58e1-48a9-901d-e9cfbf1b54b4"
                                         },
                                         "cta": {
-                                            "link": "https://www.swiggy.com/restaurants/shahjis-parantha-house-mg-road-pune-265027",
-                                            "text": "RESTAURANT_MENU",
-                                            "type": "WEBLINK"
-                                        },
-                                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-                                    },
-                                    {
-                                        "info": {
-                                            "id": "33184",
-                                            "name": "Rama Krishna",
-                                            "cloudinaryImageId": "qjmei6fzsduyvuaeksq1",
-                                            "locality": "Camp",
-                                            "areaName": "Camp Area",
-                                            "costForTwo": "₹450 for two",
-                                            "cuisines": [
-                                                "North Indian",
-                                                "South Indian",
-                                                "Chinese",
-                                                "Fast Food",
-                                                "Snacks",
-                                                "Beverages",
-                                                "Indian"
-                                            ],
-                                            "avgRating": 4.5,
-                                            "parentId": "3738",
-                                            "avgRatingString": "4.5",
-                                            "totalRatingsString": "10K+",
-                                            "sla": {
-                                                "deliveryTime": 36,
-                                                "lastMileTravel": 2.1,
-                                                "serviceability": "SERVICEABLE",
-                                                "slaString": "35-40 mins",
-                                                "lastMileTravelString": "2.1 km",
-                                                "iconType": "ICON_TYPE_EMPTY"
-                                            },
-                                            "availability": {
-                                                "nextCloseTime": "2024-03-27 22:30:00",
-                                                "opened": true
-                                            },
-                                            "badges": {},
-                                            "isOpen": true,
-                                            "aggregatedDiscountInfoV2": {},
-                                            "type": "F",
-                                            "badgesV2": {
-                                                "entityBadges": {
-                                                    "imageBased": {},
-                                                    "textBased": {},
-                                                    "textExtendedBadges": {}
-                                                }
-                                            },
-                                            "orderabilityCommunication": {
-                                                "title": {},
-                                                "subTitle": {},
-                                                "message": {},
-                                                "customIcon": {}
-                                            },
-                                            "differentiatedUi": {
-                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                                                "differentiatedUiMediaDetails": {
-                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                                                    "lottie": {},
-                                                    "video": {}
-                                                }
-                                            },
-                                            "reviewsSummary": {},
-                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                                            "restaurantOfferPresentationInfo": {}
-                                        },
-                                        "analytics": {
-                                            "context": "seo-data-1113d51f-92cb-4988-ba24-1a26b5eec955"
-                                        },
-                                        "cta": {
-                                            "link": "https://www.swiggy.com/restaurants/rama-krishna-camp-camp-area-pune-33184",
+                                            "link": "https://www.swiggy.com/restaurants/mayur-veg-thali-camp-pune-72073",
                                             "text": "RESTAURANT_MENU",
                                             "type": "WEBLINK"
                                         },
@@ -6570,8 +6535,8 @@
                         "citySlug": "pune",
                         "lat": "18.528913",
                         "lng": "73.87441989999999",
-                        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-                        "gandalfRequest": "{\"sortAttribute\":\"relevance\",\"isFiltered\":false,\"queryId\":\"seo-data-1113d51f-92cb-4988-ba24-1a26b5eec955\",\"seoParams\":{\"apiName\":\"FoodHomePage\",\"brandId\":\"\",\"seoUrl\":\"www.swiggy.com\",\"pageType\":\"FOOD_HOME_PAGE\"}}",
+                        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+                        "gandalfRequest": "{\"sortAttribute\":\"relevance\",\"isFiltered\":false,\"queryId\":\"seo-data-0ddb928d-58e1-48a9-901d-e9cfbf1b54b4\",\"seoParams\":{\"apiName\":\"FoodHomePage\",\"brandId\":\"\",\"seoUrl\":\"www.swiggy.com\",\"pageType\":\"FOOD_HOME_PAGE\"}}",
                         "id": "meta_data",
                         "metaInfo": {
                             "pageType": "FOOD_HOME_PAGE",
@@ -6593,8 +6558,8 @@
         "cacheExpiryTime": 240,
         "nextFetch": 1
     },
-    "tid": "5060a8c2-13cf-4ed8-9c9f-9ddb07ced5f8",
-    "sid": "cxpc5cbe-5200-442e-8d76-bc3476adc20e",
-    "deviceId": "a7572030-f60e-cb1d-5e9d-28c301e43937",
-    "csrfToken": "5jnf9kJP9NwN-T0v5hqcTHyuHPL06zPirFe8KCKU"
+    "tid": "cf65141e-66e3-4ffd-92df-6b898bb4478c",
+    "sid": "cyb45369-9b4f-4428-a6c1-d172281dc736",
+    "deviceId": "ee3807f4-b15d-d7cf-7ff5-a838e758fbb3",
+    "csrfToken": "rXYIzezQ6AWM-kyOXq9axlACom7ivPL_lE4utH-E"
 }
