@@ -80,3 +80,6 @@
 - jest Configuration
 - Jest - npx jest --init
 - install jsDOM library
+- installed @babel/preset-react (to make jsx works in test cases)
+- include babel/preset-react inside my Babel Configuration
+- install testing-library/jest-DOM [npm i -D @testing-library/jest-dom]
