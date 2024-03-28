@@ -31,12 +31,14 @@ it("should Login Button to Logout Button on Click", () => {
   );
 
   const loginButton = screen.getByRole("button", { name: "Login" });
-
   fireEvent.click(loginButton);
+  const logoutButton = screen.getByRole("button", { name: "Logout" });
+  expect(logoutButton).toBeInTheDocument();
 
-  const logoutButto = screen.getByRole("button", { name: "Logout" });
-
-  expect(logoutButto).toBeInTheDocument();
+  const afterLoginButton = screen.getByRole("button", { name: "Logout" });
+  fireEvent.click(afterLoginButton);
+  const afterLogoutButton = screen.getByRole("button", { name: "Login" });
+  expect(afterLogoutButton).toBeInTheDocument();
 });
 
 it("should render Header Component with Cart items 0", () => {
