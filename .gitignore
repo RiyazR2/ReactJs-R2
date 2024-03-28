@@ -2,6 +2,7 @@
 /dist
 .parcel-cache
 temp.txt
+
 /~$tes-and-Links.docx
 /~WRL0005.tmp
 /~WRL1702.tmp
@@ -9,3 +10,5 @@ temp.txt
 /~WRL0006.tmp
 /~WRL0004.tmp
 /~WRL0004.tmp
+
+/coverage
