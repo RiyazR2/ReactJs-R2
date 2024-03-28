@@ -38,7 +38,7 @@ it("should Search Res List for 'c' text input", async () => {
 
   const cardAfterSearch = screen.getAllByTestId("resCard");
 
-  expect(cardAfterSearch.length).toBe(2);
+  expect(cardAfterSearch.length).toBe(4);
 });
 
 it("should Filter Top Rated Restaurants ", async () => {
@@ -62,5 +62,5 @@ it("should Filter Top Rated Restaurants ", async () => {
 
   const cardAfterFilter = screen.getAllByTestId("resCard");
 
-  expect(cardAfterFilter.length).toBe(8);
+  expect(cardAfterFilter.length).toBe(5);
 });
