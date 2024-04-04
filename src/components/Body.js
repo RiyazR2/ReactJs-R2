@@ -4,10 +4,11 @@ import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import { swiggyAPI } from "../utils/constants";
 import useOnlineStatus from "../utils/useOnlineStatus";
-import UserContext from "../utils/UserContext";
+// import UserContext from "../utils/UserContext";
 
 const Body = () => {
   // local state Variable - super powerful variable
+  console.log("Body");
   const [listOfRestaurants, setListOfRestaurant] = useState([]);
   const [filteredRestaurant, setFilteredRestaurant] = useState([]);
 
@@ -37,6 +38,8 @@ const Body = () => {
     );
   };
 
+  // const searchHandler = ;
+
   const onlineStatus = useOnlineStatus();
   if (onlineStatus === false)
     return (
@@ -45,7 +48,7 @@ const Body = () => {
       </h1>
     );
 
-  const { loggedInUser, setUserName } = useContext(UserContext);
+  // const { loggedInUser, setUserName } = useContext(UserContext);
 
   return listOfRestaurants.length === 0 ? (
     <Shimmer />
@@ -65,11 +68,20 @@ const Body = () => {
           <button
             className="m-4 px-4 py-[3] bg-green-200 rounded-lg"
             onClick={() => {
-              const filteredRestaurant = listOfRestaurants.filter((res) =>
+              const filterByName = listOfRestaurants.filter((res) =>
                 res.info.name.toLowerCase().includes(searchText.toLowerCase())
               );
+              //   //
+              const filterByCuisines = listOfRestaurants.filter((res) =>
+                res.info.cuisines.some((cuisine) =>
+                  cuisine.toLowerCase().includes(searchText.toLowerCase())
+                )
+              );
+
+              const filteredRestaurant = [...filterByName, ...filterByCuisines];
 
               setFilteredRestaurant(filteredRestaurant);
+              console.log("fil", filteredRestaurant);
             }}
           >
             Search
@@ -77,10 +89,10 @@ const Body = () => {
         </div>
         <div className="m-4 p-4 flex items-center round">
           <button
-            className="px-4 py-[3] bg-gray-100 rounded-lg"
+            className="px-4 py-[3] bg-gray-100 rounded-lg "
             onClick={() => {
               const filteredList = listOfRestaurants.filter(
-                (res) => res?.info?.avgRating > 4.2
+                (res) => res?.info?.avgRating > 4.4
               );
               console.log(filteredList);
               setFilteredRestaurant(filteredList);
@@ -88,16 +100,6 @@ const Body = () => {
           >
             Top Rated Restaurants
           </button>
-        </div>
-        <div className="m-4 p-4 flex items-center round">
-          <label>
-            UserName :
-            <input
-              value={loggedInUser}
-              onChange={(e) => setUserName(e.target.value)}
-              className="ml-2 px-2 border border-black"
-            />
-          </label>
         </div>
       </div>
       <div className="flex flex-wrap ">
