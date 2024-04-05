@@ -26,30 +26,31 @@ class UserClass extends React.Component {
     // console.log("userInfo: ",json);
   }
 
-  componentDidUpdate() {
-    this.timer = setInterval(() => {
-      // console.log("setInterval Task ");
-    }, 1000);
-    // console.log("ComponedDidUpdate  UPDATE");
-  }
-
-  componentWillUnmount() {
-    // console.log("ComponedWillUnmount  WILL");
-    clearInterval(this.timer);
-  }
-
   render() {
     // console.log(this.props.name + " Child Class Render");
 
     const { name, location, avatar_url } = this.state.userInfo; // Extracting name and location
 
     return (
-      <div className="user-card">
-        <h1>Class Component</h1>
-        <img className="avtar-logo" src={avatar_url} alt="" />
-        <h2>Name: {name}</h2>
-        <h3>Location: {location}</h3>
-        <h4>Contact: riyazpathan193.rp@gmail.com</h4>
+      <div>
+        <div className="flex justify-center items-center">
+          <img
+            className="avtar-logo w-[160] h-[160] rounded-full"
+            src={avatar_url}
+            alt=""
+          />
+        </div>
+        <div className=" my-5 ml-20 flex justify-center items-center ">
+          <h2
+            className="font-semibold font-mono"
+            style={{ whiteSpace: "pre-line" }}
+          >
+            {name} {",  "}
+            riyazpathan193.rp@gmail.com
+            {"\n"} Solapur-Maharashtra {",   "}
+            {location}
+          </h2>
+        </div>
       </div>
     );
   }
