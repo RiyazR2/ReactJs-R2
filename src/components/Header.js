@@ -1,5 +1,5 @@
-import { useEffect, useState, useContext } from "react";
-import { LOGO_URL } from "../utils/constants";
+import { useState, useContext } from "react";
+import logo from "../utils/logo.png";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/UserContext";
@@ -18,17 +18,28 @@ export const Header = () => {
 
   // Subscribing to the store using Selector
   const cartItems = useSelector((store) => store.cart.items);
-  console.log(cartItems);
+  // console.log(cartItems);
+
+  const log = () => {
+    // btnNameReact === "Login"? setBtnNameReact("Logout"): setBtnNameReact("Login");
+    if (btnNameReact === "Login") {
+      return setBtnNameReact("Logout");
+    } else if (btnNameReact === "Logout") {
+      return setBtnNameReact("Login");
+    }
+  };
+
   return (
-    <div className="flex justify-between bg-pink-200 shadow-xl sm:bg-yellow-50 lg:bg-green-50">
+    //#3a516d rgba(58,81,109,255)
+    <div className="flex justify-between bg-pink-200 shadow-xl sm:bg-yellow-50 lg:bg-green-50 text-base">
       {/* if device size is less than < sm show pink or device size is grater than > sm show yellow or device size is greater than > lg show green */}
       <div className="logo-container">
         <Link to="/">
-          <img className="w-56" src={LOGO_URL} alt="Logo" />
+          <img className="w-52  " src={logo} alt="Logo" />
         </Link>
       </div>
       <div className="flex items-center ">
-        <ul className="flex p-4 m-4">
+        <ul className="flex p-4 m-4 ">
           <li className="px-4 font-bold">
             Online Status:{onlineStatus ? "🟢" : "🔴"}
           </li>
@@ -54,18 +65,18 @@ export const Header = () => {
           <li className="px-4 font-bold ">
             <Link to={"/cart"}>Cart - ({cartItems.length}) 🛒</Link>
           </li>
+          <li>
+            <Link to={"/login"}>
+              <button className="px-4 font-bold" onClick={log}>
+                {btnNameReact}
+              </button>
+            </Link>
+          </li>
 
-          <button
-            className="px-4 font-bold"
-            onClick={() => {
-              btnNameReact === "Login"
-                ? setBtnNameReact("Logout")
-                : setBtnNameReact("Login");
-            }}
-          >
-            {btnNameReact}
-          </button>
-          <li className="font-bold px-4">{loggedInUser}</li>
+          <li className="font-bold px-4 ">
+            {"👤"}
+            {loggedInUser}
+          </li>
           {/* <li>{onlineStatus ? "🟢" : "🔴"}</li> */}
         </ul>
       </div>
