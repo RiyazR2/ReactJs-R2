@@ -11,6 +11,9 @@ import UserContext from "./utils/UserContext";
 import { Provider } from "react-redux";
 import appStore from "./utils/appStore";
 import Cart from "./components/Cart";
+import Login from "./components/Login";
+import SignInPage from "./components/SignInPage";
+import Footer from "./components/Footer";
 
 const Grocery = lazy(() => import("./components/Grocery"));
 const About = lazy(() => import("./components/About"));
@@ -34,6 +37,7 @@ const AppLayout = () => {
         <div className="app">
           <Header />
           <Outlet />
+          <Footer />
         </div>
       </UserContext.Provider>
     </Provider>
@@ -48,6 +52,8 @@ const appRouter = createBrowserRouter([
       { path: "/", element: <Body /> },
       { path: "/contact", element: <Contact /> },
       { path: "/cart", element: <Cart /> },
+      { path: "/login", element: <Login /> },
+      { path: "/signin", element: <SignInPage /> },
       {
         path: "/about",
         element: (
