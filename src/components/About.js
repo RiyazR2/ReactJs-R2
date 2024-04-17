@@ -22,12 +22,12 @@ class About extends Component {
         <div className="mx-40 p-2  border-green-200  text-left ">
           <p>
             {" "}
-            🚀 Thrilled to announce the successful wrap-up of Food Bazaar, a web
+            🚀 Thrilled to announce the successful wrap-up of Foodie Food, a web
             app designed for convenient food and grocery delivery! 🍕🛒 This
             exciting project integrates seamlessly with live Swiggy and
             Instamart APIs, ensuring real-time updates and a comprehensive
             selection. Explore the live links and discover the key features that
-            make Food Bazaar a standout experience! 🌐🚀
+            make Foodie Food a standout experience! 🌐🚀
           </p>
           <br />
           <hr />
