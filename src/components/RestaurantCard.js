@@ -30,7 +30,7 @@ const RestaurantCard = (props) => {
       <h4 className="font-semibold py-1 ">{sla?.slaString} </h4>
       {/*  sla?.slaString === Delivery Time*/}
       <hr />
-      <h4 className="font-semibold py-1 ">User: {loggedInUser} </h4>
+      {/* <h4 className="font-semibold py-1 ">User: {loggedInUser} </h4> */}
     </div>
   );
 };
