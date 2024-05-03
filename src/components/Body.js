@@ -71,7 +71,7 @@ const Body = () => {
               const filterByName = listOfRestaurants.filter((res) =>
                 res.info.name.toLowerCase().includes(searchText.toLowerCase())
               );
-              //   //
+
               const filterByCuisines = listOfRestaurants.filter((res) =>
                 res.info.cuisines.some((cuisine) =>
                   cuisine.toLowerCase().includes(searchText.toLowerCase())
