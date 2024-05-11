@@ -49,6 +49,7 @@ const appRouter = createBrowserRouter([
     path: "/",
     element: <AppLayout />,
     children: [
+      //Stick header at top and bottom is childrens
       { path: "/", element: <Body /> },
       { path: "/contact", element: <Contact /> },
       { path: "/cart", element: <Cart /> },
