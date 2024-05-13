@@ -1,3 +1,6 @@
+// this is CUSTOM HOOK this  HOOK Responsiblity is that
+// to fetch the data of the Restaurant and give it back to the RestaurantMenu.
+
 import { useEffect, useState } from "react";
 import { MENU_API } from "./constants";
 const useRestaurantMenu = (resId) => {

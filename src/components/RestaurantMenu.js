@@ -7,6 +7,7 @@ import { useState } from "react";
 const RestaurantMenu = () => {
   const { resId } = useParams();
 
+  // CUSTOM HOOK
   const restaurantInfo = useRestaurantMenu(resId);
   console.log("restaurantInfo", restaurantInfo); // ! don't delete this, this is for reference
 
