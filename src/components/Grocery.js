@@ -7,8 +7,9 @@ const Grocery = () => {
   return (
     <div className="container mx-auto px-4 py-8">
       <h1>
-        Assume : Our Grocery Online Store, and we have a lot of component inside
-        this webpage.
+        Assume : This is Our Grocery Online Store, and we have a lot of
+        component inside it.
+        <br /> (this is just for lazy loading Testing)
       </h1>
       <h1 className="text-3xl font-bold text-center ">Grocery Store</h1>
 
