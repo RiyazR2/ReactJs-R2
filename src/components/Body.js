@@ -59,14 +59,14 @@ const Body = () => {
           <input
             type="text"
             data-testid="searchInput"
-            className="pl-2 border border-solid border-black "
+            className="pl-2 py-[6px] border border-solid border-black"
             value={searchText}
             onChange={(e) => {
               setSearchText(e.target.value);
             }}
           />
           <button
-            className="m-4 px-4 py-[3] bg-green-200 rounded-lg"
+            className="m-4 px-4 py-2 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600 transition duration-300"
             onClick={() => {
               const filterByName = listOfRestaurants.filter((res) =>
                 res.info.name.toLowerCase().includes(searchText.toLowerCase())
@@ -87,9 +87,9 @@ const Body = () => {
             Search
           </button>
         </div>
-        <div className="m-4 p-4 flex items-center round">
+        <div className="m-4 p-4 flex items-center">
           <button
-            className="px-4 py-[3] bg-gray-100 rounded-lg "
+            className="px-4 py-2 bg-gray-300 text-gray-700 rounded-lg shadow-md hover:bg-gray-400 transition duration-300"
             onClick={() => {
               const filteredList = listOfRestaurants.filter(
                 (res) => res?.info?.avgRating > 4.4
@@ -102,13 +102,12 @@ const Body = () => {
           </button>
         </div>
       </div>
-      <div className="flex flex-wrap ">
+      <div className="flex flex-wrap">
         {filteredRestaurant.map((restaurant) => (
           <Link
             to={"/restaurants/" + restaurant.info.id}
             key={restaurant.info.id}
           >
-            {/* If the Restourant have Discount then add a Discount Label on it */}
             {restaurant?.info?.aggregatedDiscountInfoV3?.header ? (
               <RestaurantCardDiscount restData={restaurant} />
             ) : (
