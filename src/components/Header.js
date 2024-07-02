@@ -8,10 +8,6 @@ import { useSelector } from "react-redux";
 export const Header = () => {
   const [btnNameReact, setBtnNameReact] = useState("Login");
 
-  // useEffect(() => {
-  //   // console.log("useEffect Callled from Header Component");
-  // }, []);
-
   const onlineStatus = useOnlineStatus();
 
   const { loggedInUser } = useContext(UserContext);
