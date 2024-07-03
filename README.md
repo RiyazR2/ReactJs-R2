@@ -34,18 +34,6 @@
 - - Address
 - - Contact
 
-# Two Types of Export/Import
-
-- 1] Default Export/Import
-
-  - export default Component
-  - import Component from "path";
-
-- 2] Named const Component
-  <!-- When their is export of more than 1 component then used this type -->
-  - export const Component
-  - import {Component} from "path";
-
 # React Hooks
 
 - Normal Js Function - written by Facebook Developer
