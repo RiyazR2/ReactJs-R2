@@ -11,7 +11,7 @@ const RestaurantCard = (props) => {
   return (
     <div
       data-testid="resCard"
-      className="relative m-4 p-4 w-[250px] rounded-lg bg-gray-100 hover:shadow-2xl transition-shadow duration-300 ease-in-out hover:-translate-y-2"
+      className="relative mx-8 p-4 w-[250px] rounded-lg bg-gray-100 hover:shadow-2xl transition-shadow duration-300 ease-in-out hover:-translate-y-2"
     >
       <div className="relative overflow-hidden rounded-lg">
         <img
@@ -45,7 +45,7 @@ export const withDiscountLabel = (RestaurantCard) => {
     // console.log("header", props?.restData?.info?.aggregatedDiscountInfoV3);
     return (
       <div className="relative">
-        <label className="absolute bg-black text-white rounded-md ml-4 p-2 z-10">
+        <label className="absolute bg-black text-white rounded-md ml-8 p-2 z-10">
           {!header.includes("OFF") ? "Discount Soon 🤗" : header}
         </label>
         <RestaurantCard {...props} />
