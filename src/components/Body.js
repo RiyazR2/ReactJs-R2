@@ -30,15 +30,22 @@ const Body = () => {
 
     console.log("SwigyyAPI: ", json);
 
+    // // ! Restaurants ==> restaurant_grid_listing
+    // setListOfRestaurant(
+    //   json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+    // );
+    // setFilteredRestaurant(
+    //   json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+    // );
+
+    // ! Restaurants ==> top_brands_for_you
     setListOfRestaurant(
-      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+      json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
     setFilteredRestaurant(
-      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+      json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
   };
-
-  // const searchHandler = ;
 
   const onlineStatus = useOnlineStatus();
   if (onlineStatus === false)
