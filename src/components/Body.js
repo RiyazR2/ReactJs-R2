@@ -12,7 +12,7 @@ const Body = () => {
   const [listOfRestaurants, setListOfRestaurant] = useState([]);
   const [filteredRestaurant, setFilteredRestaurant] = useState([]);
 
-  const [searchText, setSearchText] = useState("");
+  const [searchText, setSearchText] = useState(""); //Search input
 
   const RestaurantCardDiscount = withDiscountLabel(RestaurantCard);
 
@@ -39,9 +39,11 @@ const Body = () => {
     // );
 
     // ! Restaurants ==> top_brands_for_you
+    // this is for Body Main Restaurant
     setListOfRestaurant(
       json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
+    // this is for Searched Restaurant
     setFilteredRestaurant(
       json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
@@ -54,6 +56,33 @@ const Body = () => {
         Looks Like You're Offline!! Please Check Your Internet Connection...
       </h1>
     );
+
+  // Button Top Rated Restaurants
+  const handleTopRated = () => {
+    const filteredList = listOfRestaurants.filter(
+      (res) => res?.info?.avgRating > 4.4
+    );
+    console.log(filteredList);
+    setFilteredRestaurant(filteredList);
+  };
+
+  // Search Button
+  const handleSearch = () => {
+    const filterByName = listOfRestaurants.filter((res) =>
+      res.info.name.toLowerCase().includes(searchText.toLowerCase())
+    );
+
+    const filterByCuisines = listOfRestaurants.filter((res) =>
+      res.info.cuisines.some((cuisine) =>
+        cuisine.toLowerCase().includes(searchText.toLowerCase())
+      )
+    );
+
+    const filteredRestaurant = [...filterByName, ...filterByCuisines];
+
+    setFilteredRestaurant(filteredRestaurant);
+    console.log("filteredRestaurant", filteredRestaurant);
+  };
 
   // const { loggedInUser, setUserName } = useContext(UserContext);
 
@@ -74,22 +103,7 @@ const Body = () => {
           />
           <button
             className="m-4 px-4 py-2 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600 transition duration-300"
-            onClick={() => {
-              const filterByName = listOfRestaurants.filter((res) =>
-                res.info.name.toLowerCase().includes(searchText.toLowerCase())
-              );
-
-              const filterByCuisines = listOfRestaurants.filter((res) =>
-                res.info.cuisines.some((cuisine) =>
-                  cuisine.toLowerCase().includes(searchText.toLowerCase())
-                )
-              );
-
-              const filteredRestaurant = [...filterByName, ...filterByCuisines];
-
-              setFilteredRestaurant(filteredRestaurant);
-              console.log("fil", filteredRestaurant);
-            }}
+            onClick={handleSearch}
           >
             Search
           </button>
@@ -97,13 +111,7 @@ const Body = () => {
         <div className="m-4 p-4 flex items-center">
           <button
             className="px-4 py-2 bg-gray-300 text-gray-700 rounded-lg shadow-md hover:bg-gray-400 transition duration-300"
-            onClick={() => {
-              const filteredList = listOfRestaurants.filter(
-                (res) => res?.info?.avgRating > 4.4
-              );
-              console.log(filteredList);
-              setFilteredRestaurant(filteredList);
-            }}
+            onClick={handleTopRated}
           >
             Top Rated Restaurants
           </button>
