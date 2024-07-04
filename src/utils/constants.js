@@ -15,7 +15,8 @@ export const swiggyAPI =
 // prefetch added for CORS ERROR :- https://thingproxy.freeboard.io/fetch
 // https://cors-handlers.vercel.app/
 export const MENU_API =
-  "https://thingproxy.freeboard.io/fetch/https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=18.528913&lng=73.87441989999999&restaurantId=";
+  "https://cors-handlers.vercel.app/api/?url=https%3A%2F%2Fwww.swiggy.com%2Fdapi%2Fmenu%2Fpl%3Fpage-type%3DREGULAR_MENU%26complete-menu%3Dtrue%26lat%3D18.528913%26lng%3D73.87441989999999%26restaurantId%3D";
+// "https://thingproxy.freeboard.io/fetch/https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=18.528913&lng=73.87441989999999&restaurantId=";
 // "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=17.6599188&lng=75.9063906&restaurantId"
 // 421568
 
@@ -46,30 +47,30 @@ export const MENU_API =
 
 ///////////////////////////////////////////////////////////
 
-export const swiggyAPI_url = "https://http-cors-proxy.p.rapidapi.com/";
-const options = {
-  method: "POST",
-  headers: {
-    "content-type": "application/json",
-    Origin: "www.example.com",
-    "X-Requested-With": "www.example.com",
-    "X-RapidAPI-Key": "815b0bc3b1msh35b258dcc7ede8ep10041fjsn70ba9caaa79f",
-    "X-RapidAPI-Host": "http-cors-proxy.p.rapidapi.com",
-  },
-  body: JSON.stringify({
-    url: "https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.528913&lng=73.87441989999999&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING",
-  }),
-};
+// export const swiggyAPI_url = "https://http-cors-proxy.p.rapidapi.com/";
+// const options = {
+//   method: "POST",
+//   headers: {
+//     "content-type": "application/json",
+//     Origin: "www.example.com",
+//     "X-Requested-With": "www.example.com",
+//     "X-RapidAPI-Key": "815b0bc3b1msh35b258dcc7ede8ep10041fjsn70ba9caaa79f",
+//     "X-RapidAPI-Host": "http-cors-proxy.p.rapidapi.com",
+//   },
+//   body: JSON.stringify({
+//     url: "https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.528913&lng=73.87441989999999&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING",
+//   }),
+// };
 
-const fetchData = async () => {
-  try {
-    const response = await fetch(swiggyAPI_url, options);
-    const result = await response.text();
-    console.log(result);
-  } catch (error) {
-    console.error(error);
-  }
-};
+// const fetchData = async () => {
+//   try {
+//     const response = await fetch(swiggyAPI_url, options);
+//     const result = await response.text();
+//     console.log(result);
+//   } catch (error) {
+//     console.error(error);
+//   }
+// };
 
-// Call the async function to execute the fetch
-fetchData();
+// // Call the async function to execute the fetch
+// fetchData();
