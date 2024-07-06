@@ -95,14 +95,14 @@ const Body = () => {
           <input
             type="text"
             data-testid="searchInput"
-            className="pl-2 py-[6px] border border-solid border-black"
+            className="sm:pl-1 sm:py-[2px] md:pl-2 md:py-[3px] border border-solid border-black rounded-lg"
             value={searchText}
             onChange={(e) => {
               setSearchText(e.target.value);
             }}
           />
           <button
-            className="m-4 px-4 py-2 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600 transition duration-300"
+            className="m-4 px-4 py-2 text-xs sm:text-sm font-bold bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600 transition duration-300"
             onClick={handleSearch}
           >
             Search
@@ -110,7 +110,7 @@ const Body = () => {
         </div>
         <div className="m-4 p-4 flex items-center">
           <button
-            className="px-4 py-2 bg-gray-300 text-gray-700 rounded-lg shadow-md hover:bg-gray-400 transition duration-300"
+            className="px-4 py-2 text-xs sm:text-sm font-bold bg-gray-300 text-gray-700 rounded-lg shadow-md hover:bg-gray-400 transition duration-300"
             onClick={handleTopRated}
           >
             Top Rated Restaurants
