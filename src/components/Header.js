@@ -26,54 +26,50 @@ export const Header = () => {
   };
 
   return (
-    //#3a516d rgba(58,81,109,255)
-    <div className="flex justify-between bg-pink-200 shadow-xl sm:bg-yellow-50 lg:bg-green-50 text-base">
-      {/* if device size is less than < sm show pink or device size is grater than > sm show yellow or device size is greater than > lg show green */}
-      <div className="logo-container">
+    <div className="flex flex-col sm:flex-row justify-between items-center bg-green-100 text-base shadow-xl p-4">
+      {/* Change background color based on screen size */}
+      <div className="logo-container  p-2">
         <Link to="/">
-          <img className="w-52  " src={logo} alt="Logo" />
+          <img className="w-40 sm:w-52 rounded-lg" src={logo} alt="Logo" />
         </Link>
       </div>
-      <div className="flex items-center ">
-        <ul className="flex p-4 m-4 ">
-          <li className="px-4 font-bold">
-            Online Status:{onlineStatus ? "🟢" : "🔴"}
-          </li>
-          <li className="px-4 font-bold">
+      <div className="flex flex-wrap items-center text-xs sm:text-sm md:text-lg">
+        <ul className="flex flex-wrap p-4 m-0 sm:m-4">
+          <li className="px-2 sm:px-4 font-bold">
             <Link to="/">Home</Link>
           </li>
-          <li className="px-4 font-bold">
-            <Link className=" px-4 " to="/about">
-              About Us
+          <li className="px-2 sm:px-4 font-bold">
+            <Link className="px-2 sm:px-4" to="/about">
+              About
             </Link>
           </li>
-          <li className="px-4 font-bold">
-            <Link className=" px-4" to="/contact">
-              Contact Us
+          <li className="px-2 sm:px-4 font-bold">
+            <Link className="px-2 sm:px-4" to="/contact">
+              Contact
             </Link>
           </li>
-          <li className="px-4 font-bold">
-            <Link className="px-4" to="/grocery">
+          <li className="px-2 sm:px-4 font-bold">
+            <Link className="px-2 sm:px-4" to="/grocery">
               Grocery
             </Link>
           </li>
-
-          <li className="px-4 font-bold ">
+          <li className="px-2 sm:px-4 font-bold">
             <Link to={"/cart"}>Cart - ({cartItems.length}) 🛒</Link>
           </li>
-          <li>
+          {/* <li className="px-2 sm:px-4">
             <Link to={"/login"}>
-              <button className="px-4 font-bold" onClick={log}>
+              <button className="px-2 sm:px-4 font-bold" onClick={log}>
                 {btnNameReact}
               </button>
             </Link>
-          </li>
-
-          <li className="font-bold px-4 ">
+          </li> */}
+          {/* <li className="font-bold px-2 sm:px-4">
             {"👤"}
             {loggedInUser}
+          </li> */}
+          <li className="px-2 sm:px-4 font-bold">
+            Status: {onlineStatus ? "🟢" : "🔴"}
           </li>
-          {/* <li>{onlineStatus ? "🟢" : "🔴"}</li> */}
         </ul>
       </div>
     </div>
