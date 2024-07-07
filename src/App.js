@@ -14,6 +14,7 @@ import Cart from "./components/Cart";
 import Login from "./components/Login";
 import SignInPage from "./components/SignInPage";
 import Footer from "./components/Footer";
+import PaymentDone from "./components/PaymentDone";
 
 const Grocery = lazy(() => import("./components/Grocery"));
 const About = lazy(() => import("./components/About"));
@@ -55,6 +56,7 @@ const appRouter = createBrowserRouter([
       { path: "/cart", element: <Cart /> },
       { path: "/login", element: <Login /> },
       { path: "/signin", element: <SignInPage /> },
+      { path: "/payment", element: <PaymentDone /> },
       {
         path: "/about",
         element: (
