@@ -26,11 +26,11 @@ export const Header = () => {
   };
 
   return (
-    <div className="flex flex-col sm:flex-row justify-between items-center bg-green-100 text-base shadow-xl p-4">
+    <div className="flex flex-col sm:flex-row justify-between items-center bg-green-100 text-base shadow-xl p-2">
       {/* Change background color based on screen size */}
-      <div className="logo-container  p-2">
+      <div className="logo-container">
         <Link to="/">
-          <img className="w-40 sm:w-52 rounded-lg" src={logo} alt="Logo" />
+          <img className="w-24 sm:w-36 rounded-lg" src={logo} alt="Logo" />
         </Link>
       </div>
       <div className="flex flex-wrap items-center text-xs sm:text-sm md:text-lg">
