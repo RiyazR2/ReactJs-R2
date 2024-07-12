@@ -1,3 +1,30 @@
+<p align="center">   
+  <a href="https://github.com/RushikeshGandhmal"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&duration=0001&pause=1000&color=F7388D&center=true&width=435&lines=Rushikesh+Gandhmal" alt="Typing SVG" /></a>
+  <p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=1000&color=F7388D&center=true&width=435&lines=%F0%9F%92%BB+Full-stack+web+developer!;2%2.7%2B+years+of+professional+experience!;Always+learning+new+things!" alt="Typing SVG" /></a>  
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=1000&color=F7388D&center=true&width=435&lines=%F0%9F%92%BB+Full-stack+web+developer!;2%2.8%2B+years+of+professional+experience!;Always+learning+new+things!" alt="Typing SVG" /></a>  
+</p>
+</p>
+
+## I'm an indie Full-stack web developer, building the stuffs that help and people enjoy. All coding projects are built from the ground up, from planning and designing all the way to solving real-life problems with code.
+
+### 🧰 Languages and Tools
+
+<img align="left" alt="JavaScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+<img align="left" alt="TypeScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
+<img align="left" alt="Netxjs" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
+<img align="left" alt="React" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+<img align="left" alt="Tailwind CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />               
+<img align="left" alt="NodeJS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+<img align="left" alt="MongoDB" width="30px" style="padding-right:10px;" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" />
+<img align="left" alt="Express" width="30px" style="padding-right:10px;" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored-dark.svg" />
+<img align="left" alt="Redux" width="30px" style="padding-right:10px;" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/redux-colored.svg" />
+<img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
+<img align="left" alt="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
+<img align="left" alt="SASS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
+<img align="left" alt="Figma" width="30px" style="padding-right:10px;" src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" />
+<img align="left" alt="MY-SQL" width="30px" style="padding-right:10px;" src="https://img.icons8.com/fluent/50/000000/mysql-logo.png" />
+
 # React by Riyaz Pathan 🚀
 
 # Parcel => for more and good info (https://parceljs.org/)
