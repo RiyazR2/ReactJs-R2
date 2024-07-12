@@ -1,78 +1,91 @@
-import { useState, useContext } from "react";
+// import { useState, useContext } from "react";
 import logo from "../utils/logo.png";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
-import UserContext from "../utils/UserContext";
 import { useSelector } from "react-redux";
 
 export const Header = () => {
-  const [btnNameReact, setBtnNameReact] = useState("Login");
-
+  // const [btnNameReact, setBtnNameReact] = useState("Login");
   const onlineStatus = useOnlineStatus();
-
-  const { loggedInUser } = useContext(UserContext);
-
-  // Subscribing to the store using Selector
   const cartItems = useSelector((store) => store.cart.items);
-  // console.log(cartItems);
 
-  const log = () => {
-    // btnNameReact === "Login"? setBtnNameReact("Logout"): setBtnNameReact("Login");
-    if (btnNameReact === "Login") {
-      return setBtnNameReact("Logout");
-    } else if (btnNameReact === "Logout") {
-      return setBtnNameReact("Login");
-    }
-  };
+  // const log = () => {
+  //   setBtnNameReact((prev) => (prev === "Login" ? "Logout" : "Login"));
+  // };
 
   return (
-    <div className="flex flex-col sm:flex-row justify-between items-center bg-green-100 text-base shadow-xl p-2">
-      {/* Change background color based on screen size */}
-      <div className="logo-container">
+    <header className="flex flex-col sm:flex-row   justify-between items-center bg-gradient-to-r from-green-100 to-green-200 shadow-lg p-4">
+      <div className="logo-container mb-2 sm:mb-0">
         <Link to="/">
-          <img className="w-24 sm:w-36 rounded-lg" src={logo} alt="Logo" />
+          <img
+            className="w-24 sm:w-36 rounded-lg hover:opacity-90 transition-opacity duration-200"
+            src={logo}
+            alt="Logo"
+          />
         </Link>
       </div>
-      <div className="flex flex-wrap items-center text-xs sm:text-sm md:text-lg">
-        <ul className="flex flex-wrap p-4 m-0 sm:m-4">
-          <li className="px-2 sm:px-4 font-bold">
-            <Link to="/">Home</Link>
-          </li>
-          <li className="px-2 sm:px-4 font-bold">
-            <Link className="px-2 sm:px-4" to="/about">
-              About
+      <nav className="flex flex-wrap items-center">
+        <ul className="flex flex-wrap  gap-4 text-xs sm:text-sm md:text-lg font-bold">
+          <li>
+            <Link
+              className="px-2 sm:px-4 hover:text-green-600 transition-colors duration-200"
+              to="/"
+            >
+              Home
             </Link>
           </li>
-          <li className="px-2 sm:px-4 font-bold">
-            <Link className="px-2 sm:px-4" to="/contact">
-              Contact
-            </Link>
-          </li>
-          <li className="px-2 sm:px-4 font-bold">
-            <Link className="px-2 sm:px-4" to="/grocery">
+          <li>
+            <Link
+              className="px-2 sm:px-4 hover:text-green-600 transition-colors duration-200"
+              to="/grocery"
+            >
               Grocery
             </Link>
           </li>
-          <li className="px-2 sm:px-4 font-bold">
-            <Link to={"/cart"}>Cart - ({cartItems.length}) 🛒</Link>
-          </li>
-          {/* <li className="px-2 sm:px-4">
-            <Link to={"/login"}>
-              <button className="px-2 sm:px-4 font-bold" onClick={log}>
-                {btnNameReact}
-              </button>
+          <li>
+            <Link
+              className="px-2 sm:px-4 hover:text-green-600 transition-colors duration-200"
+              to="/about"
+            >
+              About
             </Link>
+          </li>
+          <li>
+            <Link
+              className="px-2 sm:px-4 hover:text-green-600 transition-colors duration-200"
+              to="/contact"
+            >
+              Contact
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              className="px-2 sm:px-4 hover:text-green-600 transition-colors duration-200"
+              to="/cart"
+            >
+              Cart - ({cartItems.length}) 🛒
+            </Link>
+          </li>
+          {/* <li>
+            <button
+              className="px-2 sm:px-4 font-bold hover:text-green-600 transition-colors duration-200"
+              onClick={log}
+            >
+              {btnNameReact}
+            </button>
           </li> */}
-          {/* <li className="font-bold px-2 sm:px-4">
-            {"👤"}
-            {loggedInUser}
-          </li> */}
-          <li className="px-2 sm:px-4 font-bold">
-            Status: {onlineStatus ? "🟢" : "🔴"}
+          <li className="px-2 sm:px-4">
+            Status:{" "}
+            {onlineStatus ? (
+              <span className="text-green-600">🟢</span>
+            ) : (
+              <span className="text-red-600">🔴</span>
+            )}
           </li>
         </ul>
-      </div>
-    </div>
+      </nav>
+    </header>
   );
 };
 
