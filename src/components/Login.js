@@ -1,26 +1,3 @@
-// import { useContext } from "react";
-// import UserContext from "../utils/UserContext";
-
-// const Login = () => {
-//   const { loggedInUser, setUserName } = useContext(UserContext);
-//   return (
-//     <div>
-//       <div className="m-4 p-4 flex items-center ">
-//         <label>
-//           UserName :
-//           <input
-//             value={loggedInUser}
-//             onChange={(e) => setUserName(e.target.value)}
-//             className="ml-2 px-2 border border-black"
-//           />
-//         </label>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Login;
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
