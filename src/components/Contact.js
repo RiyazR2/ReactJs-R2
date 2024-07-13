@@ -1,149 +1,103 @@
-// const Contact = () => {
-//   return (
-//     <div>
-//       <h1 className="font-bold text-3xl p-4 m-4">Contact Us </h1>
-//       <form>
-//         <input
-//           type="text"
-//           className="border border-black p-2 m-2"
-//           placeholder="Name"
-//         />
-//         <input
-//           type="text"
-//           className="border border-black p-2 m-2"
-//           placeholder="Message"
-//         />
-//         <button className="border border-black p-2 m-2 bg-gray-100 rounded-lg">
-//           Submit
-//         </button>
-//       </form>
-//     </div>
-//   );
-// };
-
-// export default Contact;
-
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
-// import StyledContactForm from "./StyledContactForm";
-// import styled from "styled-components";
-
-// npm i @emailjs/browser
+import React, { useState } from "react";
 
 const Contact = () => {
-  const form = useRef();
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  const [submitted, setSubmitted] = useState(false);
 
-    emailjs
-      .sendForm("service_gp1nvca", "template_fgrrlcc", form.current, {
-        publicKey: "dgLIhGUYqcunhH-Sf",
-      })
-      .then(
-        (e) => {
-          console.log("SUCCESS!");
-          // e.target.reset();
-        },
-        (error) => {
-          console.log("FAILED...", error.text);
-        }
-      );
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
   };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Handle form submission logic (e.g., send data to an API)
+    setSubmitted(true);
+  };
+
   return (
-    <div className="mt-10 mx-auto w-3/12">
-      <div className="w-[400px]  font-normal text-base">
-        <form
-          className="flex  flex-col w-[100%] font-[16px]"
-          ref={form}
-          onSubmit={sendEmail}
-        >
-          <label className="font-bold mt-4">Name</label>
-          <input
-            className="w-full h-9 px-3 py-2 rounded border-2 border-gray-300 focus:border-teal-500 focus:outline-none"
-            type="text"
-            name="to_name"
-            required
-          />
+    <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center py-10">
+      <div className="bg-white shadow-lg rounded-lg p-8 max-w-md w-full">
+        <h2 className="text-2xl font-semibold mb-6 text-center">Contact Us</h2>
 
-          <label className="font-bold mt-4">Email</label>
-          <input
-            className="w-full h-9 px-3 py-2 rounded border-2 border-gray-300 focus:border-teal-500 focus:outline-none"
-            type="email"
-            name="from_name"
-            required
-          />
+        {!submitted ? (
+          <form onSubmit={handleSubmit} className="space-y-6">
+            <div>
+              <label htmlFor="name" className="block text-gray-700">
+                Name
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
+                required
+                className="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-500 focus:outline-none"
+              />
+            </div>
+            <div>
+              <label htmlFor="email" className="block text-gray-700">
+                Email
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                required
+                className="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-500 focus:outline-none"
+              />
+            </div>
+            <div>
+              <label htmlFor="message" className="block text-gray-700">
+                Message
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
+                required
+                className="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-500 focus:outline-none"
+              />
+            </div>
+            <div>
+              <button
+                type="submit"
+                className="w-full py-2 px-4 bg-blue-500 text-white font-semibold rounded-md shadow hover:bg-blue-600 focus:ring focus:ring-blue-500 focus:outline-none"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        ) : (
+          <div className="text-center text-green-500 font-semibold">
+            Thank you for contacting us! We will get back to you soon.
+          </div>
+        )}
+      </div>
 
-          <label className="font-bold mt-4">Message</label>
-          <textarea
-            className="w-full h-32 px-3 py-2 mt-2 rounded border-2 border-gray-300 focus:border-teal-500 focus:outline-none"
-            name="message"
-            required
-          />
-
-          <input
-            className="my-8 cursor-pointer bg-orange-500 text-white border-none px-4 py-2 rounded"
-            type="submit"
-            value="Send"
-          />
-        </form>
+      <div className="mt-10 p-8 max-w-md w-full text-center bg-white shadow-lg rounded-lg">
+        <h3 className="text-xl font-semibold mb-4">Our Contact Details</h3>
+        <p className="text-gray-700">Restaurant Name: Foodie Food</p>
+        <p className="text-gray-700">Location: Solapur, Maharashtra</p>
+        <p className="text-gray-700">
+          Email:{" "}
+          <a href="mailto:contact@foodiefood.com" className="text-blue-500">
+            contact@foodiefood.com
+          </a>
+        </p>
+        <p className="text-gray-700">Phone: +91 0987654321</p>
       </div>
     </div>
   );
 };
 
 export default Contact;
-
-// Styles;
-// const StyledContactForm = styled.div`
-//   width: 400px;
-
-//   form {
-//     display: flex;
-//     align-items: flex-start;
-//     flex-direction: column;
-//     width: 100%;
-//     font-size: 16px;
-
-//     input {
-//       width: 100%;
-//       height: 35px;
-//       padding: 7px;
-//       outline: none;
-//       border-radius: 5px;
-//       border: 1px solid rgb(220, 220, 220);
-
-//       &:focus {
-//         border: 2px solid rgba(0, 206, 158, 1);
-//       }
-//     }
-
-//     textarea {
-//       max-width: 100%;
-//       min-width: 100%;
-//       width: 100%;
-//       max-height: 100px;
-//       min-height: 100px;
-//       padding: 7px;
-//       outline: none;
-//       border-radius: 5px;
-//       border: 1px solid rgb(220, 220, 220);
-
-//       &:focus {
-//         border: 2px solid rgba(0, 206, 158, 1);
-//       }
-// //     }
-
-// //     label {
-// //       margin-top: 1rem;
-// //     }
-
-// //     input[type="submit"] {
-// //       margin-top: 2rem;
-// //       cursor: pointer;
-// //       background: rgb(249, 105, 14);
-// //       color: white;
-// //       border: none;
-// //     }
-// //   }
-// // `;
