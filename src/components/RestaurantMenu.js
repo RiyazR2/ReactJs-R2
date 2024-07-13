@@ -9,7 +9,7 @@ const RestaurantMenu = () => {
 
   // CUSTOM HOOK
   const restaurantInfo = useRestaurantMenu(resId);
-  console.log("restaurantInfo", restaurantInfo); // ! don't delete this, this is for reference
+  // console.log("restaurantInfo", restaurantInfo); // ! don't delete this, this is for reference
 
   //for RestaurantCategory to do Expand or Collapse
   const [showIndex, setShowIndex] = useState(0);
