@@ -4,7 +4,8 @@ import logo from "../utils/logo.png";
 
 const Error = () => {
   const err = useRouteError();
-  console.log("Error:", err);
+  // console.log("Error:", err);
+
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center">
       <div className="max-w-md w-full mx-auto text-center bg-white p-6 shadow-lg rounded-lg">

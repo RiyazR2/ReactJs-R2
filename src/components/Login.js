@@ -5,10 +5,10 @@ const Login = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
+  // Your login logic here
   const handleLogin = (e) => {
     e.preventDefault();
-    // Your login logic here
-    console.log("Logging in with:", username, password);
+    // console.log("Logging in with:", username, password);
   };
 
   return (

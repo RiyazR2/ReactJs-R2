@@ -3,9 +3,8 @@ import logo from "../utils/logo.png";
 
 const Footer = () => {
   useEffect(() => {
-    // Perform actions when the component mounts
-    console.log("Footer component mounted");
-
+    //// Perform actions when the component mounts
+    // console.log("Footer component mounted");
     // You can add any actions you need here
   }, []); // Empty dependency array means this effect runs only once after the component mounts
 

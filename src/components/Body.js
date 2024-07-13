@@ -7,8 +7,8 @@ import useOnlineStatus from "../utils/useOnlineStatus";
 // import UserContext from "../utils/UserContext";
 
 const Body = () => {
-  // local state Variable - super powerful variable
-  console.log("Body");
+  //// local state Variable - super powerful variable
+  // console.log("Body");
   const [listOfRestaurants, setListOfRestaurant] = useState([]);
   const [filteredRestaurant, setFilteredRestaurant] = useState([]);
 
@@ -27,8 +27,7 @@ const Body = () => {
     const data = await fetch(swiggyAPI);
 
     const json = await data.json();
-
-    console.log("SwigyyAPI: ", json);
+    // console.log("SwigyyAPI: ", json);
 
     // // ! Restaurants ==> restaurant_grid_listing
     // setListOfRestaurant(
@@ -62,7 +61,8 @@ const Body = () => {
     const filteredList = listOfRestaurants.filter(
       (res) => res?.info?.avgRating > 4.4
     );
-    console.log(filteredList);
+
+    // console.log(filteredList);
     setFilteredRestaurant(filteredList);
   };
 
@@ -81,7 +81,7 @@ const Body = () => {
     const filteredRestaurant = [...filterByName, ...filterByCuisines];
 
     setFilteredRestaurant(filteredRestaurant);
-    console.log("filteredRestaurant", filteredRestaurant);
+    // console.log("filteredRestaurant", filteredRestaurant);
   };
 
   // const { loggedInUser, setUserName } = useContext(UserContext);

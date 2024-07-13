@@ -6,8 +6,8 @@ const SignInPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Your sign-in logic here
-    console.log("Signing in with:", email, password);
+    // //Your sign-in logic here
+    // console.log("Signing in with:", email, password);
   };
 
   return (
